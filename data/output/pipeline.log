@@ -1,0 +1,434 @@
+2025-08-04 14:42:31,114 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 14:42:31,115 - PipelineOrchestrator - INFO - Input file: test_channels.txt
+2025-08-04 14:42:31,115 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 14:42:31,115 - PipelineOrchestrator - INFO - Loading channels from test_channels.txt
+2025-08-04 14:42:31,129 - PipelineOrchestrator - INFO - Loaded 3 channels
+2025-08-04 14:42:31,129 - PipelineOrchestrator - INFO - Limited to first 3 channels
+2025-08-04 14:42:31,148 - PipelineOrchestrator - INFO - Target: Transform 3 channels into 10-year comprehensive dataset
+2025-08-04 14:42:31,148 - PipelineOrchestrator - INFO - Phases to run: phase1
+2025-08-04 14:42:31,149 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 14:42:31,149 - PipelineOrchestrator - INFO - PHASE 1: YouTube API Enrichment
+2025-08-04 14:42:31,149 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 14:42:31,149 - PipelineOrchestrator - ERROR - Pipeline failed: YouTube API key not found in configuration
+2025-08-04 14:42:31,150 - PipelineOrchestrator - INFO - Saved 3 channels to data\output\partial_enriched_channels.json
+2025-08-04 14:42:31,151 - PipelineOrchestrator - INFO - Pipeline report saved to data\output\pipeline_report.json
+2025-08-04 14:43:05,686 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 14:43:05,686 - PipelineOrchestrator - INFO - Input file: test_channels.txt
+2025-08-04 14:43:05,686 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 14:43:05,686 - PipelineOrchestrator - INFO - Loading channels from test_channels.txt
+2025-08-04 14:43:05,687 - PipelineOrchestrator - INFO - Loaded 3 channels
+2025-08-04 14:43:05,687 - PipelineOrchestrator - INFO - Limited to first 3 channels
+2025-08-04 14:43:05,689 - PipelineOrchestrator - INFO - Target: Transform 3 channels into 10-year comprehensive dataset
+2025-08-04 14:43:05,689 - PipelineOrchestrator - INFO - Phases to run: phase1
+2025-08-04 14:43:05,689 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 14:43:05,689 - PipelineOrchestrator - INFO - PHASE 1: YouTube API Enrichment
+2025-08-04 14:43:05,690 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 14:43:06,649 - PipelineOrchestrator - INFO - Phase 1 Progress: 3/3 (100.0% success) - Batch 1/1
+2025-08-04 14:43:06,652 - PipelineOrchestrator - INFO - Saved 3 channels to data\output\channels_phase1_youtube_api_20250804_144306.json
+2025-08-04 14:43:06,652 - PipelineOrchestrator - INFO - Phase 1 completed successfully
+2025-08-04 14:43:06,652 - PipelineOrchestrator - INFO - Quota usage: {'quota_used': 1, 'quota_limit': 10000, 'quota_remaining': 9999, 'quota_percentage': 0.01, 'cost_per_request': 1}
+2025-08-04 14:43:06,654 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 14:43:06,654 - PipelineOrchestrator - INFO - JUNCTION POINT VALIDATION
+2025-08-04 14:43:06,654 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 14:43:06,654 - PipelineOrchestrator - INFO - Sep 2019 junction point validated: 0/3 (0.0%)
+2025-08-04 14:43:06,654 - PipelineOrchestrator - INFO - Aug 2022 junction point validated: 0/3 (0.0%)
+2025-08-04 14:43:06,656 - PipelineOrchestrator - INFO - Saved 3 channels to data\output\final_enriched_channels.json
+2025-08-04 14:43:06,657 - PipelineOrchestrator - INFO - Pipeline report saved to data\output\pipeline_report.json
+2025-08-04 14:43:06,659 - PipelineOrchestrator - INFO - Total time: 0:00:00.968839
+2025-08-04 14:46:36,260 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 14:46:36,261 - PipelineOrchestrator - INFO - Input file: test_channels.txt
+2025-08-04 14:46:36,261 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 14:46:36,261 - PipelineOrchestrator - INFO - Loading channels from test_channels.txt
+2025-08-04 14:46:36,261 - PipelineOrchestrator - INFO - Loaded 3 channels
+2025-08-04 14:46:36,261 - PipelineOrchestrator - INFO - Limited to first 1 channels
+2025-08-04 14:46:36,264 - PipelineOrchestrator - INFO - Target: Transform 1 channels into 10-year comprehensive dataset
+2025-08-04 14:46:36,265 - PipelineOrchestrator - INFO - Phases to run: phase2a
+2025-08-04 14:46:36,265 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 14:46:36,265 - PipelineOrchestrator - INFO - PHASE 2A: Wayback Charts Collection
+2025-08-04 14:46:36,265 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 14:46:36,290 - PipelineOrchestrator - ERROR - Phase 2A initialization failed: cannot import name 'ScrapingUtils' from 'src.utils.scraping_utils' (C:\Users\Ochow\Desktop\Darwin.v1\youniverse_expansion\src\utils\scraping_utils.py)
+2025-08-04 14:46:36,290 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 14:46:36,290 - PipelineOrchestrator - INFO - JUNCTION POINT VALIDATION
+2025-08-04 14:46:36,290 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 14:46:36,290 - PipelineOrchestrator - INFO - Sep 2019 junction point validated: 0/1 (0.0%)
+2025-08-04 14:46:36,290 - PipelineOrchestrator - INFO - Aug 2022 junction point validated: 0/1 (0.0%)
+2025-08-04 14:46:36,291 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\final_enriched_channels.json
+2025-08-04 14:46:36,292 - PipelineOrchestrator - INFO - Pipeline report saved to data\output\pipeline_report.json
+2025-08-04 14:46:36,293 - PipelineOrchestrator - INFO - Total time: 0:00:00.029453
+2025-08-04 14:48:17,262 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 14:48:17,262 - PipelineOrchestrator - INFO - Input file: test_channels.txt
+2025-08-04 14:48:17,262 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 14:48:17,262 - PipelineOrchestrator - INFO - Loading channels from test_channels.txt
+2025-08-04 14:48:17,263 - PipelineOrchestrator - INFO - Loaded 3 channels
+2025-08-04 14:48:17,263 - PipelineOrchestrator - INFO - Limited to first 1 channels
+2025-08-04 14:48:17,265 - PipelineOrchestrator - INFO - Target: Transform 1 channels into 10-year comprehensive dataset
+2025-08-04 14:48:17,265 - PipelineOrchestrator - INFO - Phases to run: phase2a
+2025-08-04 14:48:17,266 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 14:48:17,266 - PipelineOrchestrator - INFO - PHASE 2A: Wayback Charts Collection
+2025-08-04 14:48:17,266 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 14:48:17,291 - PipelineOrchestrator - ERROR - Phase 2A initialization failed: Can't instantiate abstract class WaybackChartsCollector without an implementation for abstract methods '_process_single_channel', 'get_collection_phase_name'
+2025-08-04 14:48:17,291 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 14:48:17,291 - PipelineOrchestrator - INFO - JUNCTION POINT VALIDATION
+2025-08-04 14:48:17,291 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 14:48:17,291 - PipelineOrchestrator - INFO - Sep 2019 junction point validated: 0/1 (0.0%)
+2025-08-04 14:48:17,292 - PipelineOrchestrator - INFO - Aug 2022 junction point validated: 0/1 (0.0%)
+2025-08-04 14:48:17,292 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\final_enriched_channels.json
+2025-08-04 14:48:17,293 - PipelineOrchestrator - INFO - Pipeline report saved to data\output\pipeline_report.json
+2025-08-04 14:48:17,294 - PipelineOrchestrator - INFO - Total time: 0:00:00.029457
+2025-08-04 14:59:54,836 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 14:59:54,836 - PipelineOrchestrator - INFO - Input file: test_channels.txt
+2025-08-04 14:59:54,836 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 14:59:54,836 - PipelineOrchestrator - INFO - Loading channels from test_channels.txt
+2025-08-04 14:59:54,837 - PipelineOrchestrator - INFO - Loaded 3 channels
+2025-08-04 14:59:54,837 - PipelineOrchestrator - INFO - Limited to first 1 channels
+2025-08-04 14:59:54,839 - PipelineOrchestrator - INFO - Target: Transform 1 channels into 10-year comprehensive dataset
+2025-08-04 14:59:54,840 - PipelineOrchestrator - INFO - Phases to run: phase2a
+2025-08-04 14:59:54,840 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 14:59:54,840 - PipelineOrchestrator - INFO - PHASE 2A: Wayback Charts Collection
+2025-08-04 14:59:54,840 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 14:59:54,850 - PipelineOrchestrator - ERROR - Phase 2A initialization failed: BaseCollector.__init__() missing 2 required positional arguments: 'collector_name' and 'service_name'
+2025-08-04 14:59:54,850 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 14:59:54,850 - PipelineOrchestrator - INFO - JUNCTION POINT VALIDATION
+2025-08-04 14:59:54,850 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 14:59:54,850 - PipelineOrchestrator - INFO - Sep 2019 junction point validated: 0/1 (0.0%)
+2025-08-04 14:59:54,850 - PipelineOrchestrator - INFO - Aug 2022 junction point validated: 0/1 (0.0%)
+2025-08-04 14:59:54,851 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\final_enriched_channels.json
+2025-08-04 14:59:54,852 - PipelineOrchestrator - INFO - Pipeline report saved to data\output\pipeline_report.json
+2025-08-04 14:59:54,853 - PipelineOrchestrator - INFO - Total time: 0:00:00.014466
+2025-08-04 15:00:45,287 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 15:00:45,287 - PipelineOrchestrator - INFO - Input file: test_channels.txt
+2025-08-04 15:00:45,287 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 15:00:45,287 - PipelineOrchestrator - INFO - Loading channels from test_channels.txt
+2025-08-04 15:00:45,288 - PipelineOrchestrator - INFO - Loaded 3 channels
+2025-08-04 15:00:45,288 - PipelineOrchestrator - INFO - Limited to first 1 channels
+2025-08-04 15:00:45,291 - PipelineOrchestrator - INFO - Target: Transform 1 channels into 10-year comprehensive dataset
+2025-08-04 15:00:45,291 - PipelineOrchestrator - INFO - Phases to run: phase2a
+2025-08-04 15:00:45,291 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:00:45,291 - PipelineOrchestrator - INFO - PHASE 2A: Wayback Charts Collection
+2025-08-04 15:00:45,291 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:00:45,316 - PipelineOrchestrator - ERROR - Phase 2A initialization failed: Unknown service: wayback_machine
+2025-08-04 15:00:45,316 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:00:45,316 - PipelineOrchestrator - INFO - JUNCTION POINT VALIDATION
+2025-08-04 15:00:45,316 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:00:45,316 - PipelineOrchestrator - INFO - Sep 2019 junction point validated: 0/1 (0.0%)
+2025-08-04 15:00:45,317 - PipelineOrchestrator - INFO - Aug 2022 junction point validated: 0/1 (0.0%)
+2025-08-04 15:00:45,318 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\final_enriched_channels.json
+2025-08-04 15:00:45,319 - PipelineOrchestrator - INFO - Pipeline report saved to data\output\pipeline_report.json
+2025-08-04 15:00:45,320 - PipelineOrchestrator - INFO - Total time: 0:00:00.029999
+2025-08-04 15:01:02,989 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 15:01:02,989 - PipelineOrchestrator - INFO - Input file: test_channels.txt
+2025-08-04 15:01:02,989 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 15:01:02,989 - PipelineOrchestrator - INFO - Loading channels from test_channels.txt
+2025-08-04 15:01:02,990 - PipelineOrchestrator - INFO - Loaded 3 channels
+2025-08-04 15:01:02,990 - PipelineOrchestrator - INFO - Limited to first 1 channels
+2025-08-04 15:01:02,992 - PipelineOrchestrator - INFO - Target: Transform 1 channels into 10-year comprehensive dataset
+2025-08-04 15:01:02,992 - PipelineOrchestrator - INFO - Phases to run: phase2a
+2025-08-04 15:01:02,993 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:01:02,993 - PipelineOrchestrator - INFO - PHASE 2A: Wayback Charts Collection
+2025-08-04 15:01:02,993 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:01:03,015 - PipelineOrchestrator - ERROR - Phase 2A initialization failed: Unknown service: youtube_api
+2025-08-04 15:01:03,015 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:01:03,015 - PipelineOrchestrator - INFO - JUNCTION POINT VALIDATION
+2025-08-04 15:01:03,015 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:01:03,015 - PipelineOrchestrator - INFO - Sep 2019 junction point validated: 0/1 (0.0%)
+2025-08-04 15:01:03,015 - PipelineOrchestrator - INFO - Aug 2022 junction point validated: 0/1 (0.0%)
+2025-08-04 15:01:03,016 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\final_enriched_channels.json
+2025-08-04 15:01:03,017 - PipelineOrchestrator - INFO - Pipeline report saved to data\output\pipeline_report.json
+2025-08-04 15:01:03,018 - PipelineOrchestrator - INFO - Total time: 0:00:00.026530
+2025-08-04 15:03:47,407 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 15:03:47,408 - PipelineOrchestrator - INFO - Input file: test_channels.txt
+2025-08-04 15:03:47,408 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 15:03:47,408 - PipelineOrchestrator - INFO - Loading channels from test_channels.txt
+2025-08-04 15:03:47,408 - PipelineOrchestrator - INFO - Loaded 3 channels
+2025-08-04 15:03:47,408 - PipelineOrchestrator - INFO - Limited to first 1 channels
+2025-08-04 15:03:47,411 - PipelineOrchestrator - INFO - Target: Transform 1 channels into 10-year comprehensive dataset
+2025-08-04 15:03:47,411 - PipelineOrchestrator - INFO - Phases to run: phase2a
+2025-08-04 15:03:47,411 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:03:47,411 - PipelineOrchestrator - INFO - PHASE 2A: Wayback Charts Collection
+2025-08-04 15:03:47,411 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:03:47,434 - PipelineOrchestrator - INFO - Collecting Wayback charts for UCuAXFkgsw1L7xaCfnd5JJOw (1/1)
+2025-08-04 15:03:48,647 - PipelineOrchestrator - INFO - Phase 2A Progress: 0/1 (0.0% success)
+2025-08-04 15:03:48,649 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\channels_phase2a_wayback_charts_20250804_150348.json
+2025-08-04 15:03:48,649 - PipelineOrchestrator - INFO - Phase 2A completed successfully
+2025-08-04 15:03:48,649 - PipelineOrchestrator - INFO - Success rate: 0/1 (0.0%)
+2025-08-04 15:03:48,649 - PipelineOrchestrator - INFO - Total historical data points: 0
+2025-08-04 15:03:48,650 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:03:48,650 - PipelineOrchestrator - INFO - JUNCTION POINT VALIDATION
+2025-08-04 15:03:48,650 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:03:48,650 - PipelineOrchestrator - INFO - Sep 2019 junction point validated: 0/1 (0.0%)
+2025-08-04 15:03:48,650 - PipelineOrchestrator - INFO - Aug 2022 junction point validated: 0/1 (0.0%)
+2025-08-04 15:03:48,651 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\final_enriched_channels.json
+2025-08-04 15:03:48,653 - PipelineOrchestrator - INFO - Pipeline report saved to data\output\pipeline_report.json
+2025-08-04 15:03:48,654 - PipelineOrchestrator - INFO - Total time: 0:00:01.243354
+2025-08-04 15:08:31,468 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 15:08:31,468 - PipelineOrchestrator - INFO - Input file: data\test\test_channels.json
+2025-08-04 15:08:31,468 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 15:08:31,468 - PipelineOrchestrator - INFO - Loading channels from data\test\test_channels.json
+2025-08-04 15:08:53,751 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 15:08:53,751 - PipelineOrchestrator - INFO - Input file: data\test\test_channels.json
+2025-08-04 15:08:53,751 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 15:08:53,751 - PipelineOrchestrator - INFO - Loading channels from data\test\test_channels.json
+2025-08-04 15:08:53,775 - PipelineOrchestrator - INFO - Loaded 1 channels
+2025-08-04 15:08:53,775 - PipelineOrchestrator - INFO - Limited to first 1 channels
+2025-08-04 15:08:53,778 - PipelineOrchestrator - INFO - Target: Transform 1 channels into 10-year comprehensive dataset
+2025-08-04 15:08:53,778 - PipelineOrchestrator - INFO - Phases to run: 2a
+2025-08-04 15:08:53,778 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:08:53,778 - PipelineOrchestrator - INFO - JUNCTION POINT VALIDATION
+2025-08-04 15:08:53,778 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:08:53,778 - PipelineOrchestrator - INFO - Sep 2019 junction point validated: 0/1 (0.0%)
+2025-08-04 15:08:53,778 - PipelineOrchestrator - INFO - Aug 2022 junction point validated: 0/1 (0.0%)
+2025-08-04 15:08:53,779 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\final_enriched_channels.json
+2025-08-04 15:08:53,780 - PipelineOrchestrator - INFO - Pipeline report saved to data\output\pipeline_report.json
+2025-08-04 15:08:53,782 - PipelineOrchestrator - INFO - Total time: 0:00:00.004220
+2025-08-04 15:09:16,006 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 15:09:16,007 - PipelineOrchestrator - INFO - Input file: data\test\test_channels.json
+2025-08-04 15:09:16,007 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 15:09:16,007 - PipelineOrchestrator - INFO - Loading channels from data\test\test_channels.json
+2025-08-04 15:09:16,007 - PipelineOrchestrator - INFO - Loaded 1 channels
+2025-08-04 15:09:16,007 - PipelineOrchestrator - INFO - Limited to first 1 channels
+2025-08-04 15:09:16,010 - PipelineOrchestrator - INFO - Target: Transform 1 channels into 10-year comprehensive dataset
+2025-08-04 15:09:16,010 - PipelineOrchestrator - INFO - Phases to run: phase2a
+2025-08-04 15:09:16,010 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:09:16,010 - PipelineOrchestrator - INFO - PHASE 2A: Wayback Charts Collection
+2025-08-04 15:09:16,010 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:09:16,012 - PipelineOrchestrator - INFO - Collecting Wayback charts for UCuAXFkgsw1L7xaCfnd5JJOw (1/1)
+2025-08-04 15:09:25,030 - PipelineOrchestrator - INFO - Phase 2A Progress: 0/1 (0.0% success)
+2025-08-04 15:09:25,032 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\channels_phase2a_wayback_charts_20250804_150925.json
+2025-08-04 15:09:25,032 - PipelineOrchestrator - INFO - Phase 2A completed successfully
+2025-08-04 15:09:25,032 - PipelineOrchestrator - INFO - Success rate: 0/1 (0.0%)
+2025-08-04 15:09:25,032 - PipelineOrchestrator - INFO - Total historical data points: 0
+2025-08-04 15:09:25,034 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:09:25,034 - PipelineOrchestrator - INFO - JUNCTION POINT VALIDATION
+2025-08-04 15:09:25,034 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:09:25,034 - PipelineOrchestrator - INFO - Sep 2019 junction point validated: 0/1 (0.0%)
+2025-08-04 15:09:25,034 - PipelineOrchestrator - INFO - Aug 2022 junction point validated: 0/1 (0.0%)
+2025-08-04 15:09:25,035 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\final_enriched_channels.json
+2025-08-04 15:09:25,036 - PipelineOrchestrator - INFO - Pipeline report saved to data\output\pipeline_report.json
+2025-08-04 15:09:25,038 - PipelineOrchestrator - INFO - Total time: 0:00:09.028099
+2025-08-04 15:12:54,148 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 15:12:54,148 - PipelineOrchestrator - INFO - Input file: data\test\test_channels.json
+2025-08-04 15:12:54,148 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 15:12:54,149 - PipelineOrchestrator - INFO - Loading channels from data\test\test_channels.json
+2025-08-04 15:12:54,149 - PipelineOrchestrator - INFO - Loaded 1 channels
+2025-08-04 15:12:54,149 - PipelineOrchestrator - INFO - Limited to first 1 channels
+2025-08-04 15:12:54,152 - PipelineOrchestrator - INFO - Target: Transform 1 channels into 10-year comprehensive dataset
+2025-08-04 15:12:54,152 - PipelineOrchestrator - INFO - Phases to run: phase2a
+2025-08-04 15:12:54,152 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:12:54,152 - PipelineOrchestrator - INFO - PHASE 2A: Wayback Charts Collection
+2025-08-04 15:12:54,152 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:12:54,154 - PipelineOrchestrator - INFO - Collecting Wayback charts for UCuAXFkgsw1L7xaCfnd5JJOw (1/1)
+2025-08-04 15:12:59,474 - PipelineOrchestrator - INFO - Phase 2A Progress: 1/1 (100.0% success)
+2025-08-04 15:12:59,490 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\channels_phase2a_wayback_charts_20250804_151259.json
+2025-08-04 15:12:59,490 - PipelineOrchestrator - INFO - Phase 2A completed successfully
+2025-08-04 15:12:59,490 - PipelineOrchestrator - INFO - Success rate: 1/1 (100.0%)
+2025-08-04 15:12:59,490 - PipelineOrchestrator - INFO - Total historical data points: 314
+2025-08-04 15:12:59,492 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:12:59,492 - PipelineOrchestrator - INFO - JUNCTION POINT VALIDATION
+2025-08-04 15:12:59,492 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:12:59,492 - PipelineOrchestrator - INFO - Sep 2019 junction point validated: 0/1 (0.0%)
+2025-08-04 15:12:59,492 - PipelineOrchestrator - INFO - Aug 2022 junction point validated: 0/1 (0.0%)
+2025-08-04 15:12:59,493 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\final_enriched_channels.json
+2025-08-04 15:12:59,495 - PipelineOrchestrator - INFO - Pipeline report saved to data\output\pipeline_report.json
+2025-08-04 15:12:59,496 - PipelineOrchestrator - INFO - Total time: 0:00:05.344257
+2025-08-04 15:22:31,964 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 15:22:31,964 - PipelineOrchestrator - INFO - Input file: data\test\test_channels.json
+2025-08-04 15:22:31,964 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 15:22:31,964 - PipelineOrchestrator - INFO - Loading channels from data\test\test_channels.json
+2025-08-04 15:22:31,964 - PipelineOrchestrator - INFO - Loaded 1 channels
+2025-08-04 15:22:31,964 - PipelineOrchestrator - INFO - Limited to first 1 channels
+2025-08-04 15:22:31,967 - PipelineOrchestrator - INFO - Target: Transform 1 channels into 10-year comprehensive dataset
+2025-08-04 15:22:31,967 - PipelineOrchestrator - INFO - Phases to run: phase2a
+2025-08-04 15:22:31,967 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:22:31,967 - PipelineOrchestrator - INFO - PHASE 2A: Wayback Charts Collection
+2025-08-04 15:22:31,967 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:22:31,969 - PipelineOrchestrator - INFO - Collecting Wayback charts for UCuAXFkgsw1L7xaCfnd5JJOw (1/1)
+2025-08-04 15:22:35,541 - PipelineOrchestrator - INFO - Phase 2A Progress: 1/1 (100.0% success)
+2025-08-04 15:22:35,556 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\channels_phase2a_wayback_charts_20250804_152235.json
+2025-08-04 15:22:35,556 - PipelineOrchestrator - INFO - Phase 2A completed successfully
+2025-08-04 15:22:35,556 - PipelineOrchestrator - INFO - Success rate: 1/1 (100.0%)
+2025-08-04 15:22:35,556 - PipelineOrchestrator - INFO - Total historical data points: 312
+2025-08-04 15:22:35,558 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:22:35,558 - PipelineOrchestrator - INFO - JUNCTION POINT VALIDATION
+2025-08-04 15:22:35,558 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:22:35,559 - PipelineOrchestrator - INFO - Sep 2019 junction point validated: 0/1 (0.0%)
+2025-08-04 15:22:35,559 - PipelineOrchestrator - INFO - Aug 2022 junction point validated: 0/1 (0.0%)
+2025-08-04 15:22:35,560 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\final_enriched_channels.json
+2025-08-04 15:22:35,561 - PipelineOrchestrator - INFO - Pipeline report saved to data\output\pipeline_report.json
+2025-08-04 15:22:35,563 - PipelineOrchestrator - INFO - Total time: 0:00:03.595570
+2025-08-04 15:29:33,557 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 15:29:33,557 - PipelineOrchestrator - INFO - Input file: data\test\test_channels.json
+2025-08-04 15:29:33,557 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 15:29:33,557 - PipelineOrchestrator - INFO - Loading channels from data\test\test_channels.json
+2025-08-04 15:29:33,558 - PipelineOrchestrator - INFO - Loaded 1 channels
+2025-08-04 15:29:33,558 - PipelineOrchestrator - INFO - Limited to first 1 channels
+2025-08-04 15:29:33,560 - PipelineOrchestrator - INFO - Target: Transform 1 channels into 10-year comprehensive dataset
+2025-08-04 15:29:33,560 - PipelineOrchestrator - INFO - Phases to run: phase1
+2025-08-04 15:29:33,560 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:29:33,560 - PipelineOrchestrator - INFO - PHASE 1: YouTube API Enrichment
+2025-08-04 15:29:33,560 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:29:33,562 - PipelineOrchestrator - INFO - Saved 0 channels to data\output\channels_phase1_youtube_api_20250804_152933.json
+2025-08-04 15:29:33,562 - PipelineOrchestrator - INFO - Phase 1 completed successfully
+2025-08-04 15:29:33,563 - PipelineOrchestrator - INFO - Quota usage: {'quota_used': 0, 'quota_limit': 10000, 'quota_remaining': 10000, 'quota_percentage': 0.0, 'cost_per_request': 1}
+2025-08-04 15:29:33,563 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:29:33,563 - PipelineOrchestrator - INFO - JUNCTION POINT VALIDATION
+2025-08-04 15:29:33,563 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:29:33,563 - PipelineOrchestrator - ERROR - Pipeline failed: division by zero
+2025-08-04 15:29:33,563 - PipelineOrchestrator - INFO - Saved 0 channels to data\output\partial_enriched_channels.json
+2025-08-04 15:29:33,564 - PipelineOrchestrator - INFO - Pipeline report saved to data\output\pipeline_report.json
+2025-08-04 15:32:38,974 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 15:32:38,974 - PipelineOrchestrator - INFO - Input file: data\test\test_channels.json
+2025-08-04 15:32:38,974 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 15:32:38,974 - PipelineOrchestrator - INFO - Loading channels from data\test\test_channels.json
+2025-08-04 15:32:38,975 - PipelineOrchestrator - INFO - Loaded 1 channels
+2025-08-04 15:32:38,975 - PipelineOrchestrator - INFO - Limited to first 1 channels
+2025-08-04 15:32:38,978 - PipelineOrchestrator - INFO - Target: Transform 1 channels into 10-year comprehensive dataset
+2025-08-04 15:32:38,978 - PipelineOrchestrator - INFO - Phases to run: phase1
+2025-08-04 15:32:38,978 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:32:38,978 - PipelineOrchestrator - INFO - PHASE 1: YouTube API Enrichment
+2025-08-04 15:32:38,978 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:32:40,279 - PipelineOrchestrator - INFO - Phase 1 Progress: 1/1 (100.0% success) - Batch 1/1
+2025-08-04 15:32:40,282 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\channels_phase1_youtube_api_20250804_153240.json
+2025-08-04 15:32:40,282 - PipelineOrchestrator - INFO - Phase 1 completed successfully
+2025-08-04 15:32:40,282 - PipelineOrchestrator - INFO - Quota usage: {'quota_used': 1, 'quota_limit': 10000, 'quota_remaining': 9999, 'quota_percentage': 0.01, 'cost_per_request': 1}
+2025-08-04 15:32:40,284 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:32:40,284 - PipelineOrchestrator - INFO - JUNCTION POINT VALIDATION
+2025-08-04 15:32:40,284 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:32:40,284 - PipelineOrchestrator - INFO - Sep 2019 junction point validated: 0/1 (0.0%)
+2025-08-04 15:32:40,284 - PipelineOrchestrator - INFO - Aug 2022 junction point validated: 0/1 (0.0%)
+2025-08-04 15:32:40,286 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\final_enriched_channels.json
+2025-08-04 15:32:40,287 - PipelineOrchestrator - INFO - Pipeline report saved to data\output\pipeline_report.json
+2025-08-04 15:32:40,288 - PipelineOrchestrator - INFO - Total time: 0:00:01.310834
+2025-08-04 15:33:07,133 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 15:33:07,134 - PipelineOrchestrator - INFO - Input file: data\output\final_enriched_channels.json
+2025-08-04 15:33:07,134 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 15:33:07,134 - PipelineOrchestrator - INFO - Loading channels from data\output\final_enriched_channels.json
+2025-08-04 15:33:07,144 - PipelineOrchestrator - INFO - Loaded 1 channels
+2025-08-04 15:33:07,144 - PipelineOrchestrator - INFO - Limited to first 1 channels
+2025-08-04 15:33:07,147 - PipelineOrchestrator - INFO - Target: Transform 1 channels into 10-year comprehensive dataset
+2025-08-04 15:33:07,147 - PipelineOrchestrator - INFO - Phases to run: phase2a
+2025-08-04 15:33:07,147 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:33:07,147 - PipelineOrchestrator - INFO - PHASE 2A: Wayback Charts Collection
+2025-08-04 15:33:07,147 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:33:07,149 - PipelineOrchestrator - INFO - Collecting Wayback charts for UCuAXFkgsw1L7xaCfnd5JJOw (1/1)
+2025-08-04 15:33:11,291 - PipelineOrchestrator - INFO - Phase 2A Progress: 0/1 (0.0% success)
+2025-08-04 15:33:11,292 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\channels_phase2a_wayback_charts_20250804_153311.json
+2025-08-04 15:33:11,292 - PipelineOrchestrator - INFO - Phase 2A completed successfully
+2025-08-04 15:33:11,292 - PipelineOrchestrator - INFO - Success rate: 0/1 (0.0%)
+2025-08-04 15:33:11,292 - PipelineOrchestrator - INFO - Total historical data points: 0
+2025-08-04 15:33:11,294 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:33:11,294 - PipelineOrchestrator - INFO - JUNCTION POINT VALIDATION
+2025-08-04 15:33:11,294 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:33:11,295 - PipelineOrchestrator - INFO - Sep 2019 junction point validated: 0/1 (0.0%)
+2025-08-04 15:33:11,295 - PipelineOrchestrator - INFO - Aug 2022 junction point validated: 0/1 (0.0%)
+2025-08-04 15:33:11,296 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\final_enriched_channels.json
+2025-08-04 15:33:11,297 - PipelineOrchestrator - INFO - Pipeline report saved to data\output\pipeline_report.json
+2025-08-04 15:33:11,298 - PipelineOrchestrator - INFO - Total time: 0:00:04.151882
+2025-08-04 15:33:28,463 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 15:33:28,463 - PipelineOrchestrator - INFO - Input file: data\output\final_enriched_channels.json
+2025-08-04 15:33:28,464 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 15:33:28,464 - PipelineOrchestrator - INFO - Loading channels from data\output\final_enriched_channels.json
+2025-08-04 15:33:28,465 - PipelineOrchestrator - INFO - Loaded 1 channels
+2025-08-04 15:33:28,465 - PipelineOrchestrator - INFO - Limited to first 1 channels
+2025-08-04 15:33:28,468 - PipelineOrchestrator - INFO - Target: Transform 1 channels into 10-year comprehensive dataset
+2025-08-04 15:33:28,468 - PipelineOrchestrator - INFO - Phases to run: phase2a
+2025-08-04 15:33:28,468 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:33:28,469 - PipelineOrchestrator - INFO - PHASE 2A: Wayback Charts Collection
+2025-08-04 15:33:28,469 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:33:28,500 - PipelineOrchestrator - INFO - Collecting Wayback charts for UCuAXFkgsw1L7xaCfnd5JJOw (1/1)
+2025-08-04 15:33:32,077 - PipelineOrchestrator - INFO - Phase 2A Progress: 0/1 (0.0% success)
+2025-08-04 15:33:32,079 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\channels_phase2a_wayback_charts_20250804_153332.json
+2025-08-04 15:33:32,079 - PipelineOrchestrator - INFO - Phase 2A completed successfully
+2025-08-04 15:33:32,079 - PipelineOrchestrator - INFO - Success rate: 0/1 (0.0%)
+2025-08-04 15:33:32,079 - PipelineOrchestrator - INFO - Total historical data points: 0
+2025-08-04 15:33:32,081 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:33:32,081 - PipelineOrchestrator - INFO - JUNCTION POINT VALIDATION
+2025-08-04 15:33:32,081 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 15:33:32,081 - PipelineOrchestrator - INFO - Sep 2019 junction point validated: 0/1 (0.0%)
+2025-08-04 15:33:32,081 - PipelineOrchestrator - INFO - Aug 2022 junction point validated: 0/1 (0.0%)
+2025-08-04 15:33:32,083 - PipelineOrchestrator - INFO - Saved 1 channels to data\output\final_enriched_channels.json
+2025-08-04 15:33:32,084 - PipelineOrchestrator - INFO - Pipeline report saved to data\output\pipeline_report.json
+2025-08-04 15:33:32,085 - PipelineOrchestrator - INFO - Total time: 0:00:03.617341
+2025-08-04 20:28:35,449 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 20:28:35,449 - PipelineOrchestrator - INFO - Input file: test_channels.csv
+2025-08-04 20:28:35,449 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 20:28:35,449 - PipelineOrchestrator - INFO - Loading channels from test_channels.csv
+2025-08-04 20:28:35,457 - PipelineOrchestrator - INFO - Loaded 3 channels
+2025-08-04 20:28:35,457 - PipelineOrchestrator - INFO - Limited to first 3 channels
+2025-08-04 20:28:35,460 - PipelineOrchestrator - INFO - Target: Transform 3 channels into 10-year comprehensive dataset
+2025-08-04 20:28:35,460 - PipelineOrchestrator - INFO - Phases to run: 3
+2025-08-04 20:28:35,460 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 20:28:35,460 - PipelineOrchestrator - INFO - JUNCTION POINT VALIDATION
+2025-08-04 20:28:35,460 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 20:28:35,460 - PipelineOrchestrator - INFO - Sep 2019 junction point validated: 0/3 (0.0%)
+2025-08-04 20:28:35,461 - PipelineOrchestrator - INFO - Aug 2022 junction point validated: 0/3 (0.0%)
+2025-08-04 20:28:35,462 - PipelineOrchestrator - INFO - Saved 3 channels to data\output\final_enriched_channels.json
+2025-08-04 20:28:35,462 - PipelineOrchestrator - INFO - Pipeline report saved to data\output\pipeline_report.json
+2025-08-04 20:28:35,463 - PipelineOrchestrator - INFO - Total time: 0:00:00.004081
+2025-08-04 20:29:11,829 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 20:29:11,829 - PipelineOrchestrator - INFO - Input file: test_channels.csv
+2025-08-04 20:29:11,829 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 20:29:11,829 - PipelineOrchestrator - INFO - Loading channels from test_channels.csv
+2025-08-04 20:29:11,829 - PipelineOrchestrator - INFO - Loaded 3 channels
+2025-08-04 20:29:11,830 - PipelineOrchestrator - INFO - Limited to first 3 channels
+2025-08-04 20:29:11,832 - PipelineOrchestrator - INFO - Target: Transform 3 channels into 10-year comprehensive dataset
+2025-08-04 20:29:11,832 - PipelineOrchestrator - INFO - Phases to run: 3
+2025-08-04 20:29:11,832 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 20:29:11,832 - PipelineOrchestrator - INFO - JUNCTION POINT VALIDATION
+2025-08-04 20:29:11,832 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 20:29:11,832 - PipelineOrchestrator - INFO - Sep 2019 junction point validated: 0/3 (0.0%)
+2025-08-04 20:29:11,833 - PipelineOrchestrator - INFO - Aug 2022 junction point validated: 0/3 (0.0%)
+2025-08-04 20:29:11,834 - PipelineOrchestrator - INFO - Saved 3 channels to data\output\final_enriched_channels.json
+2025-08-04 20:29:11,834 - PipelineOrchestrator - INFO - Pipeline report saved to data\output\pipeline_report.json
+2025-08-04 20:29:11,835 - PipelineOrchestrator - INFO - Total time: 0:00:00.004069
+2025-08-04 20:29:29,285 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 20:29:29,285 - PipelineOrchestrator - INFO - Input file: test_channels.csv
+2025-08-04 20:29:29,285 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 20:29:29,285 - PipelineOrchestrator - INFO - Loading channels from test_channels.csv
+2025-08-04 20:29:29,286 - PipelineOrchestrator - INFO - Loaded 3 channels
+2025-08-04 20:29:29,286 - PipelineOrchestrator - INFO - Limited to first 3 channels
+2025-08-04 20:29:29,286 - PipelineOrchestrator - INFO -  Starting YouNiverse Dataset Enrichment Pipeline
+2025-08-04 20:29:29,286 - PipelineOrchestrator - INFO - Target: Transform 3 channels into 10-year comprehensive dataset
+2025-08-04 20:29:29,286 - PipelineOrchestrator - INFO - Phases to run: phase3
+2025-08-04 20:29:29,286 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 20:29:29,286 - PipelineOrchestrator - INFO - PHASE 3: ViewStats Historical Collection
+2025-08-04 20:29:29,286 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 20:29:29,288 - PipelineOrchestrator - INFO - ViewStats collector initialized - targeting 157 weekly data points
+2025-08-04 20:29:29,288 - PipelineOrchestrator - INFO - Date range: 2022-08-01 to 2025-08-03
+2025-08-04 20:31:52,976 - PipelineOrchestrator - INFO - Pipeline orchestrator initialized
+2025-08-04 20:31:52,976 - PipelineOrchestrator - INFO - Input file: test_channels.csv
+2025-08-04 20:31:52,976 - PipelineOrchestrator - INFO - Output directory: data\output
+2025-08-04 20:31:52,976 - PipelineOrchestrator - INFO - Loading channels from test_channels.csv
+2025-08-04 20:31:52,976 - PipelineOrchestrator - INFO - Loaded 3 channels
+2025-08-04 20:31:52,977 - PipelineOrchestrator - INFO - Limited to first 3 channels
+2025-08-04 20:31:52,977 - PipelineOrchestrator - INFO -  Starting YouNiverse Dataset Enrichment Pipeline
+2025-08-04 20:31:52,977 - PipelineOrchestrator - INFO - Target: Transform 3 channels into 10-year comprehensive dataset
+2025-08-04 20:31:52,977 - PipelineOrchestrator - INFO - Phases to run: phase1, phase2a, phase2b, phase3, phase4
+2025-08-04 20:31:52,977 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 20:31:52,977 - PipelineOrchestrator - INFO - PHASE 1: YouTube API Enrichment
+2025-08-04 20:31:52,977 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 20:31:53,877 - PipelineOrchestrator - INFO - Phase 1 Progress: 3/3 (100.0% success) - Batch 1/1
+2025-08-04 20:31:53,937 - PipelineOrchestrator - INFO - Saved 3 channels to data\output\channels_phase1_youtube_api_20250804_203153.json
+2025-08-04 20:31:53,937 - PipelineOrchestrator - INFO - Phase 1 completed successfully
+2025-08-04 20:31:53,937 - PipelineOrchestrator - INFO - Quota usage: {'quota_used': 1, 'quota_limit': 10000, 'quota_remaining': 9999, 'quota_percentage': 0.01, 'cost_per_request': 1}
+2025-08-04 20:31:53,939 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 20:31:53,939 - PipelineOrchestrator - INFO - PHASE 2A: Wayback Charts Collection
+2025-08-04 20:31:53,939 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 20:31:53,941 - PipelineOrchestrator - INFO - Collecting Wayback charts for UC4QobU6STFB0P71PMvOGN5A (1/3)
+2025-08-04 20:32:03,780 - PipelineOrchestrator - INFO - Phase 2A Progress: 1/1 (100.0% success)
+2025-08-04 20:32:03,780 - PipelineOrchestrator - INFO - Collecting Wayback charts for UC-lHJZR3Gqxm24_Vd_AJ5Yw (2/3)
+2025-08-04 20:32:36,153 - PipelineOrchestrator - INFO - Phase 2A Progress: 2/2 (100.0% success)
+2025-08-04 20:32:36,153 - PipelineOrchestrator - INFO - Collecting Wayback charts for UCX6OQ3DkcsbYNE6H8uQQuVA (3/3)
+2025-08-04 20:32:45,378 - PipelineOrchestrator - INFO - Phase 2A Progress: 3/3 (100.0% success)
+2025-08-04 20:32:45,398 - PipelineOrchestrator - INFO - Saved 3 channels to data\output\channels_phase2a_wayback_charts_20250804_203245.json
+2025-08-04 20:32:45,398 - PipelineOrchestrator - INFO - Phase 2A completed successfully
+2025-08-04 20:32:45,399 - PipelineOrchestrator - INFO - Success rate: 3/3 (100.0%)
+2025-08-04 20:32:45,399 - PipelineOrchestrator - INFO - Total historical data points: 489
+2025-08-04 20:32:45,400 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 20:32:45,400 - PipelineOrchestrator - INFO - PHASE 2B: Wayback Uploads Collection
+2025-08-04 20:32:45,400 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 20:32:45,400 - PipelineOrchestrator - WARNING - Phase 2B not yet implemented - placeholder
+2025-08-04 20:32:45,401 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 20:32:45,401 - PipelineOrchestrator - INFO - PHASE 3: ViewStats Historical Collection
+2025-08-04 20:32:45,401 - PipelineOrchestrator - INFO - ============================================================
+2025-08-04 20:32:45,403 - PipelineOrchestrator - INFO - ViewStats collector initialized - targeting 157 weekly data points
+2025-08-04 20:32:45,403 - PipelineOrchestrator - INFO - Date range: 2022-08-01 to 2025-08-03

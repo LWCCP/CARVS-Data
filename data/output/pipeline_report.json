@@ -1,0 +1,28 @@
+{
+  "pipeline_summary": {
+    "start_time": "2025-08-04T20:29:11.830109",
+    "end_time": "2025-08-04T20:29:11.834178",
+    "total_time": "0:00:00.004069",
+    "total_channels": 3,
+    "enriched_channels": 0,
+    "failed_channels": 0,
+    "not_found_channels": 0,
+    "success_rate": 0.0
+  },
+  "phase_statistics": {
+    "junction_validation": {
+      "sep_2019_validated": 0,
+      "aug_2022_validated": 0,
+      "total_channels": 3,
+      "sep_2019_rate": 0.0,
+      "aug_2022_rate": 0.0
+    }
+  },
+  "channel_status_distribution": {
+    "active": 0,
+    "inactive": 0,
+    "terminated": 0,
+    "private": 0,
+    "unknown": 3
+  }
+}

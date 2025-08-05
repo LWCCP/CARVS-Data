@@ -1,0 +1,40 @@
+[
+  {
+    "channel_id": "UCuAXFkgsw1L7xaCfnd5JJOw",
+    "channel_name": "Test Channel",
+    "channel_handle": "",
+    "category": "Other",
+    "country": "",
+    "language": "",
+    "status": "unknown",
+    "created_date": null,
+    "description": "",
+    "keywords": [],
+    "current_metrics": {
+      "subscriber_count": 1000,
+      "total_view_count": 50000,
+      "video_count": 25,
+      "total_longform_views": 40000,
+      "total_shorts_views": 10000,
+      "average_views_per_video": 2000.0,
+      "subscriber_to_view_ratio": 0.02,
+      "last_updated": null
+    },
+    "history": {
+      "first_data_point": null,
+      "last_data_point": null,
+      "total_data_points": 0,
+      "data_coverage_percentage": 0.0,
+      "junction_points_validated": [],
+      "collection_sources_used": [],
+      "quality_score": 0.0
+    },
+    "collection_metadata": {},
+    "data_quality_score": 0.0,
+    "validation_flags": [],
+    "last_validated": null,
+    "processing_status": "pending",
+    "processing_notes": "",
+    "last_updated": "2025-08-04T15:08:31.000000"
+  }
+]

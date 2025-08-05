@@ -1,0 +1,158 @@
+[
+  {
+    "channel_id": "UC4QobU6STFB0P71PMvOGN5A",
+    "channel_name": "jawed",
+    "channel_handle": "",
+    "category": "Other",
+    "country": "US",
+    "language": "",
+    "status": "active",
+    "created_date": "2005-04-24",
+    "description": "",
+    "keywords": [],
+    "current_metrics": {
+      "subscriber_count": 5630000,
+      "total_view_count": 368144906,
+      "video_count": 1,
+      "total_longform_views": 0,
+      "total_shorts_views": 0,
+      "average_views_per_video": 368144906.0,
+      "subscriber_to_view_ratio": 0.015292891218220469,
+      "last_updated": "2025-08-04T20:31:53.877106"
+    },
+    "history": {
+      "first_data_point": null,
+      "last_data_point": null,
+      "total_data_points": 0,
+      "data_coverage_percentage": 0.0,
+      "junction_points_validated": [],
+      "collection_sources_used": [
+        "youtube_api"
+      ],
+      "quality_score": 0.0
+    },
+    "collection_metadata": {
+      "collection_sources": {
+        "youtube_api": {
+          "timestamp": "2025-08-04T20:31:53.877124",
+          "details": {
+            "timestamp": "2025-08-04T20:31:53.877116",
+            "privacy_status": "public",
+            "subscriber_count_hidden": true,
+            "quota_cost": 1
+          }
+        }
+      }
+    },
+    "data_quality_score": 0.0,
+    "validation_flags": [],
+    "last_validated": null,
+    "processing_status": "enriched",
+    "processing_notes": "Successfully enriched via YouTube API",
+    "last_updated": "2025-08-04T20:31:53.877111"
+  },
+  {
+    "channel_id": "UC-lHJZR3Gqxm24_Vd_AJ5Yw",
+    "channel_name": "PewDiePie",
+    "channel_handle": "",
+    "category": "Other",
+    "country": "JP",
+    "language": "",
+    "status": "active",
+    "created_date": "2010-04-29",
+    "description": "I make videos.",
+    "keywords": [],
+    "current_metrics": {
+      "subscriber_count": 110000000,
+      "total_view_count": 29580904977,
+      "video_count": 4820,
+      "total_longform_views": 0,
+      "total_shorts_views": 0,
+      "average_views_per_video": 6137117.215145228,
+      "subscriber_to_view_ratio": 0.0037186151027336096,
+      "last_updated": "2025-08-04T20:31:53.877140"
+    },
+    "history": {
+      "first_data_point": null,
+      "last_data_point": null,
+      "total_data_points": 0,
+      "data_coverage_percentage": 0.0,
+      "junction_points_validated": [],
+      "collection_sources_used": [
+        "youtube_api"
+      ],
+      "quality_score": 0.0
+    },
+    "collection_metadata": {
+      "collection_sources": {
+        "youtube_api": {
+          "timestamp": "2025-08-04T20:31:53.877149",
+          "details": {
+            "timestamp": "2025-08-04T20:31:53.877145",
+            "privacy_status": "public",
+            "subscriber_count_hidden": true,
+            "quota_cost": 1
+          }
+        }
+      }
+    },
+    "data_quality_score": 0.0,
+    "validation_flags": [],
+    "last_validated": null,
+    "processing_status": "enriched",
+    "processing_notes": "Successfully enriched via YouTube API",
+    "last_updated": "2025-08-04T20:31:53.877143"
+  },
+  {
+    "channel_id": "UCX6OQ3DkcsbYNE6H8uQQuVA",
+    "channel_name": "MrBeast",
+    "channel_handle": "",
+    "category": "Other",
+    "country": "US",
+    "language": "en",
+    "status": "active",
+    "created_date": "2012-02-20",
+    "description": "SUBSCRIBE FOR A COOKIE!\nNew MrBeast or MrBeast Gaming video every single Saturday at noon eastern time!\nAccomplishments:\n- Raised $20,000,000 To Plant 20,000,000 Trees\n- Removed 30,000,000 pounds of trash from the ocean\n- Helped 2,000 people walk again\n- Helped 1,000 blind people see\n- Helped 1,000 deaf people hear\n- Built wells in Africa\n- Built and gave away 100 houses\n- Adopted every dog in a shelter (twice)\n- Given millions to charity\n- Started my own snack company Feastables\n- Started my ow",
+    "keywords": [],
+    "current_metrics": {
+      "subscriber_count": 419000000,
+      "total_view_count": 92419302456,
+      "video_count": 891,
+      "total_longform_views": 0,
+      "total_shorts_views": 0,
+      "average_views_per_video": 103725367.51515152,
+      "subscriber_to_view_ratio": 0.0045336849431370915,
+      "last_updated": "2025-08-04T20:31:53.877160"
+    },
+    "history": {
+      "first_data_point": null,
+      "last_data_point": null,
+      "total_data_points": 0,
+      "data_coverage_percentage": 0.0,
+      "junction_points_validated": [],
+      "collection_sources_used": [
+        "youtube_api"
+      ],
+      "quality_score": 0.0
+    },
+    "collection_metadata": {
+      "collection_sources": {
+        "youtube_api": {
+          "timestamp": "2025-08-04T20:31:53.877167",
+          "details": {
+            "timestamp": "2025-08-04T20:31:53.877164",
+            "privacy_status": "public",
+            "subscriber_count_hidden": true,
+            "quota_cost": 1
+          }
+        }
+      }
+    },
+    "data_quality_score": 0.0,
+    "validation_flags": [],
+    "last_validated": null,
+    "processing_status": "enriched",
+    "processing_notes": "Successfully enriched via YouTube API",
+    "last_updated": "2025-08-04T20:31:53.877162"
+  }
+]

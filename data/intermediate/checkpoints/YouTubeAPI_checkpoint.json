@@ -1,0 +1,30 @@
+{
+  "collector_name": "YouTubeAPI",
+  "timestamp": "2025-08-04T20:31:53.877423",
+  "progress": {
+    "total_channels": 3,
+    "processed_channels": 3,
+    "successful_channels": 3,
+    "failed_channels": 0,
+    "start_time": "2025-08-04T20:31:52.978028",
+    "end_time": "2025-08-04T20:31:53.877418",
+    "current_phase": "Phase 1: YouTube API Enrichment",
+    "current_batch": 1,
+    "total_batches": 1,
+    "success_rate": 100.0,
+    "elapsed_time": "0:00:00.899390",
+    "estimated_completion": "2025-08-04T20:31:53.877446"
+  },
+  "stats": {
+    "requests_made": 0,
+    "requests_successful": 0,
+    "requests_failed": 0,
+    "data_points_collected": 3
+  },
+  "processed_channels": [
+    "UC4QobU6STFB0P71PMvOGN5A",
+    "UC-lHJZR3Gqxm24_Vd_AJ5Yw",
+    "UCX6OQ3DkcsbYNE6H8uQQuVA"
+  ],
+  "failed_channels": []
+}

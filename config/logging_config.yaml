@@ -1,7 +1,187 @@
-# Logging Configuration
-# To be populated by performance-engineer
+# Logging Configuration for YouNiverse Dataset Enrichment Pipeline
+# Production-ready structured logging with rotation and monitoring
 
 version: 1
 disable_existing_loggers: false
 
-# Placeholder logging configuration structure
+formatters:
+  detailed:
+    format: '%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(funcName)s() - %(message)s'
+    datefmt: '%Y-%m-%d %H:%M:%S'
+    
+  structured:
+    format: '%(asctime)s | %(levelname)-8s | %(name)-20s | %(message)s'
+    datefmt: '%Y-%m-%d %H:%M:%S'
+    
+  json:
+    '()': 'pythonjsonlogger.jsonlogger.JsonFormatter'
+    format: '%(asctime)s %(name)s %(levelname)s %(filename)s %(lineno)d %(funcName)s %(message)s'
+    
+  performance:
+    format: '%(asctime)s - PERF - %(name)s - %(message)s'
+    datefmt: '%Y-%m-%d %H:%M:%S'
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: structured
+    stream: ext://sys.stdout
+    
+  file_application:
+    class: logging.handlers.RotatingFileHandler
+    level: DEBUG
+    formatter: detailed
+    filename: logs/application.log
+    maxBytes: 52428800  # 50MB
+    backupCount: 5
+    encoding: utf8
+    
+  file_data_collection:
+    class: logging.handlers.RotatingFileHandler
+    level: INFO
+    formatter: json
+    filename: logs/data_collection.log
+    maxBytes: 104857600  # 100MB
+    backupCount: 10
+    encoding: utf8
+    
+  file_error:
+    class: logging.handlers.RotatingFileHandler
+    level: ERROR
+    formatter: detailed
+    filename: logs/error.log
+    maxBytes: 26214400  # 25MB
+    backupCount: 10
+    encoding: utf8
+    
+  file_performance:
+    class: logging.handlers.RotatingFileHandler
+    level: INFO
+    formatter: performance
+    filename: logs/performance.log
+    maxBytes: 52428800  # 50MB
+    backupCount: 7
+    encoding: utf8
+    
+  file_progress:
+    class: logging.handlers.RotatingFileHandler
+    level: INFO
+    formatter: structured
+    filename: logs/progress.log
+    maxBytes: 26214400  # 25MB
+    backupCount: 5
+    encoding: utf8
+
+loggers:
+  youniverse:
+    level: DEBUG
+    handlers: [console, file_application]
+    propagate: false
+    
+  youniverse.collectors:
+    level: INFO
+    handlers: [file_data_collection, file_error]
+    propagate: true
+    
+  youniverse.collectors.youtube_api:
+    level: DEBUG
+    handlers: [file_data_collection]
+    propagate: true
+    
+  youniverse.collectors.wayback:
+    level: INFO
+    handlers: [file_data_collection]
+    propagate: true
+    
+  youniverse.collectors.viewstats:
+    level: INFO
+    handlers: [file_data_collection, file_error]
+    propagate: true
+    
+  youniverse.processors:
+    level: INFO
+    handlers: [file_application, file_error]
+    propagate: true
+    
+  youniverse.validators:
+    level: INFO
+    handlers: [file_application, file_error]
+    propagate: true
+    
+  youniverse.performance:
+    level: INFO
+    handlers: [file_performance]
+    propagate: false
+    
+  youniverse.progress:
+    level: INFO
+    handlers: [file_progress, console]
+    propagate: false
+    
+  youniverse.quality:
+    level: INFO
+    handlers: [file_application, file_error]
+    propagate: true
+    
+  # Third-party library logging control
+  requests:
+    level: WARNING
+    handlers: [file_error]
+    propagate: false
+    
+  urllib3:
+    level: WARNING
+    handlers: [file_error]
+    propagate: false
+    
+  aiohttp:
+    level: WARNING
+    handlers: [file_error]
+    propagate: false
+
+root:
+  level: INFO
+  handlers: [console, file_application, file_error]
+
+# Custom logging configuration for specific components
+custom_configs:
+  rate_limiting:
+    log_level: INFO
+    include_request_details: true
+    log_circuit_breaker_events: true
+    
+  data_quality:
+    log_level: INFO
+    log_validation_failures: true
+    log_statistical_anomalies: true
+    log_junction_point_checks: true
+    
+  pipeline_progress:
+    log_level: INFO
+    log_phase_transitions: true
+    log_batch_completions: true
+    log_channel_processing_stats: true
+    update_interval_seconds: 30
+    
+  error_handling:
+    log_level: ERROR
+    include_stack_traces: true
+    log_retry_attempts: true
+    log_circuit_breaker_trips: true
+    
+  performance_metrics:
+    log_level: INFO
+    log_api_response_times: true
+    log_processing_durations: true
+    log_memory_usage: true
+    log_throughput_stats: true
+    sample_rate: 0.1
+
+# Log retention policies
+retention:
+  application_logs: 30  # days
+  data_collection_logs: 90  # days
+  error_logs: 180  # days
+  performance_logs: 60  # days
+  progress_logs: 14  # days

@@ -1,6 +1,255 @@
 {
-  "_comment": "Data quality validation rules - To be populated by data-analytics-expert",
-  "validation_rules": {},
-  "quality_thresholds": {},
-  "error_handling": {}
+  "_comment": "Data quality validation rules for YouNiverse Dataset Enrichment Pipeline",
+  "_metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-08-04",
+    "target_channels": 153550,
+    "timespan": "2015-2025",
+    "junction_points": ["2019-09", "2022-08"]
+  },
+
+  "validation_rules": {
+    "temporal_validation": {
+      "junction_point_september_2019": {
+        "enabled": true,
+        "tolerance_weeks": 1,
+        "required_overlap": true,
+        "continuity_check": true,
+        "statistical_validation": {
+          "max_delta_percentage": 15.0,
+          "trend_consistency_check": true,
+          "outlier_detection_sigma": 3.0
+        }
+      },
+      "junction_point_august_2022": {
+        "enabled": true,
+        "tolerance_weeks": 1,
+        "required_overlap": true,
+        "continuity_check": true,
+        "statistical_validation": {
+          "max_delta_percentage": 10.0,
+          "trend_consistency_check": true,
+          "outlier_detection_sigma": 2.5
+        }
+      },
+      "weekly_granularity": {
+        "enforce_weekly_intervals": true,
+        "allow_daily_interpolation": true,
+        "gap_tolerance_days": 3,
+        "minimum_data_points_per_month": 4
+      },
+      "date_range_validation": {
+        "min_date": "2015-01-01",
+        "max_date": "2025-12-31",
+        "future_date_tolerance_days": 7
+      }
+    },
+
+    "data_completeness": {
+      "required_fields": {
+        "channel_metadata": ["channel_id", "channel_name", "category", "country"],
+        "timeseries_data": ["date", "subscriber_count", "view_count", "video_count"],
+        "current_metrics": ["current_subscribers", "current_views", "last_updated"]
+      },
+      "completeness_thresholds": {
+        "critical_fields": 1.0,
+        "important_fields": 0.95,
+        "optional_fields": 0.8
+      },
+      "missing_data_handling": {
+        "interpolation_enabled": true,
+        "max_gap_days": 14,
+        "backward_fill_enabled": true,
+        "forward_fill_enabled": true
+      }
+    },
+
+    "statistical_validation": {
+      "progression_rules": {
+        "subscriber_growth": {
+          "max_daily_growth_rate": 0.2,
+          "max_daily_decline_rate": 0.1,
+          "negative_growth_tolerance": 0.05,
+          "spike_detection_enabled": true
+        },
+        "view_count_growth": {
+          "max_daily_growth_rate": 0.5,
+          "unrealistic_jump_threshold": 10.0,
+          "view_count_reset_detection": true
+        },
+        "video_count_rules": {
+          "monotonic_increase_expected": true,
+          "max_daily_uploads": 50,
+          "video_deletion_tolerance": 0.02
+        }
+      },
+      "cross_metric_validation": {
+        "views_per_subscriber_ratio": {
+          "min_ratio": 10,
+          "max_ratio": 10000,
+          "historical_consistency_check": true
+        },
+        "engagement_metrics": {
+          "views_to_video_ratio_check": true,
+          "subscriber_to_view_correlation": true
+        }
+      }
+    },
+
+    "source_validation": {
+      "youtube_api_validation": {
+        "response_schema_validation": true,
+        "inactive_channel_detection": true,
+        "private_channel_handling": true,
+        "deleted_channel_flagging": true
+      },
+      "wayback_validation": {
+        "snapshot_authenticity_check": true,
+        "html_parsing_validation": true,
+        "chart_data_extraction_validation": true,
+        "timestamp_accuracy_check": true
+      },
+      "viewstats_validation": {
+        "anti_bot_detection": true,
+        "data_freshness_check": true,
+        "metric_consistency_validation": true
+      }
+    }
+  },
+
+  "quality_thresholds": {
+    "data_quality_scores": {
+      "excellent": 0.95,
+      "good": 0.85,
+      "acceptable": 0.75,
+      "poor": 0.60,
+      "critical": 0.50
+    },
+    "channel_processing_thresholds": {
+      "minimum_success_rate": 0.90,
+      "acceptable_error_rate": 0.05,
+      "critical_failure_threshold": 0.15
+    },
+    "temporal_coverage_requirements": {
+      "minimum_historical_coverage": 0.80,
+      "junction_point_coverage": 0.95,
+      "current_period_coverage": 0.98
+    },
+    "statistical_anomaly_thresholds": {
+      "z_score_threshold": 3.0,
+      "iqr_multiplier": 1.5,
+      "percentage_change_threshold": 0.25,
+      "trend_deviation_threshold": 0.20
+    }
+  },
+
+  "quality_flags": {
+    "data_flags": {
+      "COMPLETE": "All required data present and validated",
+      "PARTIAL": "Some data missing but within acceptable thresholds",
+      "INTERPOLATED": "Missing data filled using interpolation methods",
+      "ESTIMATED": "Data estimated from available sources",
+      "SUSPICIOUS": "Data appears unusual but not necessarily invalid",
+      "INVALID": "Data fails validation rules",
+      "MISSING": "Critical data missing",
+      "OUTDATED": "Data is older than acceptable freshness threshold"
+    },
+    "source_flags": {
+      "API_SUCCESS": "Successfully retrieved from API",
+      "API_PARTIAL": "Partial data retrieved from API",
+      "API_FAILED": "API request failed",
+      "WAYBACK_FOUND": "Data found in Wayback Machine",
+      "WAYBACK_PARTIAL": "Partial data from Wayback Machine",
+      "WAYBACK_MISSING": "No Wayback data available",
+      "VIEWSTATS_CURRENT": "Current data from ViewStats",
+      "VIEWSTATS_STALE": "Stale data from ViewStats",
+      "MANUAL_REVIEW": "Requires manual review"
+    },
+    "processing_flags": {
+      "PROCESSED": "Successfully processed",
+      "RETRY_NEEDED": "Processing failed, retry scheduled",
+      "SKIP_PERMANENT": "Permanently skipped due to conditions",
+      "DEFERRED": "Processing deferred to later phase"
+    }
+  },
+
+  "error_handling": {
+    "validation_failure_actions": {
+      "critical_failure": {
+        "action": "halt_processing",
+        "notification": true,
+        "retry_allowed": false,
+        "manual_review_required": true
+      },
+      "data_quality_failure": {
+        "action": "flag_and_continue",
+        "notification": true,
+        "retry_allowed": true,
+        "max_retries": 2
+      },
+      "minor_inconsistency": {
+        "action": "log_and_continue",
+        "notification": false,
+        "retry_allowed": false,
+        "auto_correction_enabled": true
+      }
+    },
+    "data_correction_strategies": {
+      "interpolation": {
+        "enabled": true,
+        "methods": ["linear", "polynomial", "spline"],
+        "max_gap_size": 4,
+        "confidence_threshold": 0.8
+      },
+      "outlier_handling": {
+        "detection_method": "z_score",
+        "correction_method": "winsorization",
+        "replacement_strategy": "median",
+        "preserve_original": true
+      },
+      "missing_data_imputation": {
+        "strategy": "contextual",
+        "use_channel_history": true,
+        "use_similar_channels": true,
+        "confidence_scoring": true
+      }
+    },
+    "escalation_rules": {
+      "auto_escalation_triggers": {
+        "high_error_rate": 0.10,
+        "critical_data_missing": true,
+        "junction_point_failure": true,
+        "processing_timeout": 3600
+      },
+      "notification_channels": {
+        "email_alerts": true,
+        "slack_notifications": true,
+        "dashboard_alerts": true,
+        "log_escalation": true
+      }
+    }
+  },
+
+  "monitoring_and_reporting": {
+    "quality_metrics_tracking": {
+      "real_time_monitoring": true,
+      "batch_quality_reports": true,
+      "trend_analysis": true,
+      "comparative_analysis": true
+    },
+    "reporting_frequency": {
+      "real_time_dashboard": true,
+      "hourly_summaries": true,
+      "daily_reports": true,
+      "weekly_comprehensive_reports": true
+    },
+    "quality_dashboard_metrics": {
+      "overall_quality_score": true,
+      "processing_success_rate": true,
+      "data_completeness_percentage": true,
+      "error_rate_by_source": true,
+      "validation_failure_breakdown": true,
+      "temporal_coverage_status": true
+    }
+  }
 }

@@ -1,0 +1,22 @@
+[
+  {
+    "channel_id": "UCuAXFkgsw1L7xaCfnd5JJOw",
+    "collection_phase": "phase2a_wayback_charts",
+    "collection_timestamp": "2025-08-04T15:33:28.501001",
+    "success": false,
+    "error": "Data validation failed: Subscriber mismatch: historical=10,000, current=4,380,000 (ratio: 0.00)",
+    "data_points_collected": 0,
+    "weeks_covered": 0,
+    "snapshots_used": [
+      "20221102010043",
+      "20221030051308"
+    ],
+    "historical_data": [],
+    "data_quality": "unknown",
+    "junction_points": {
+      "sep_2019_data": null,
+      "dec_2022_data": null
+    },
+    "collection_duration": 3.576676368713379
+  }
+]

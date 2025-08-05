@@ -1,0 +1,370 @@
+{
+  "channels_batch_response_success": {
+    "kind": "youtube#channelListResponse",
+    "etag": "FuSaDOviVGOE8N7VwlJyGTOmvgU",
+    "pageInfo": {
+      "totalResults": 3,
+      "resultsPerPage": 50
+    },
+    "items": [
+      {
+        "kind": "youtube#channel",
+        "etag": "qJdCl1234567890abcdef",
+        "id": "UCWeg2Pkate69NoirGiXn0xw",
+        "snippet": {
+          "title": "Marques Brownlee",
+          "description": "Consumer technology reviews, crisp videos, early access to latest tech.",
+          "customUrl": "@mkbhd",
+          "publishedAt": "2008-03-21T20:57:06Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/ytc/AL5GRJVuqw82ERvHzsmBxL7avr6K0-qniP1J7g6zL5uZcQ=s88-c-k-c0x00ffffff-no-rj",
+              "width": 88,
+              "height": 88
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/ytc/AL5GRJVuqw82ERvHzsmBxL7avr6K0-qniP1J7g6zL5uZcQ=s240-c-k-c0x00ffffff-no-rj",
+              "width": 240,
+              "height": 240
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/ytc/AL5GRJVuqw82ERvHzsmBxL7avr6K0-qniP1J7g6zL5uZcQ=s800-c-k-c0x00ffffff-no-rj",
+              "width": 800,
+              "height": 800
+            }
+          },
+          "localized": {
+            "title": "Marques Brownlee",
+            "description": "Consumer technology reviews, crisp videos, early access to latest tech."
+          },
+          "country": "US"
+        },
+        "statistics": {
+          "viewCount": "4156382947",
+          "subscriberCount": "17800000",
+          "hiddenSubscriberCount": false,
+          "videoCount": "1645"
+        },
+        "status": {
+          "privacyStatus": "public",
+          "isLinked": true,
+          "longUploadsStatus": "allowed",
+          "madeForKids": false,
+          "selfDeclaredMadeForKids": false
+        }
+      },
+      {
+        "kind": "youtube#channel",
+        "etag": "abcdef1234567890qJdCl",
+        "id": "UC29ju8bIPH5as8OGnQzwJyA",
+        "snippet": {
+          "title": "Linus Tech Tips",
+          "description": "Technology can be intimidating. We make it accessible. Linus Tech Tips is a passionate team of professionally sloppy nerds.",
+          "customUrl": "@linustechtips",
+          "publishedAt": "2008-11-03T17:57:49Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/ytc/AL5GRJX6d_JYVNXBnL5Z7Rqf2Hy4j6PQwjEEe5WqKiLh=s88-c-k-c0x00ffffff-no-rj",
+              "width": 88,
+              "height": 88
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/ytc/AL5GRJX6d_JYVNXBnL5Z7Rqf2Hy4j6PQwjEEe5WqKiLh=s240-c-k-c0x00ffffff-no-rj",
+              "width": 240,
+              "height": 240
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/ytc/AL5GRJX6d_JYVNXBnL5Z7Rqf2Hy4j6PQwjEEe5WqKiLh=s800-c-k-c0x00ffffff-no-rj",
+              "width": 800,
+              "height": 800
+            }
+          },
+          "localized": {
+            "title": "Linus Tech Tips",
+            "description": "Technology can be intimidating. We make it accessible. Linus Tech Tips is a passionate team of professionally sloppy nerds."
+          },
+          "country": "CA"
+        },
+        "statistics": {
+          "viewCount": "7251982645",
+          "subscriberCount": "15500000",
+          "hiddenSubscriberCount": false,
+          "videoCount": "6892"
+        },
+        "status": {
+          "privacyStatus": "public",
+          "isLinked": true,
+          "longUploadsStatus": "allowed",
+          "madeForKids": false,
+          "selfDeclaredMadeForKids": false
+        }
+      },
+      {
+        "kind": "youtube#channel",
+        "etag": "xyz7890123456abcdefgh",
+        "id": "UCBJycsmduvYEL83R_U4JriQ",
+        "snippet": {
+          "title": "Unbox Therapy",
+          "description": "The best technology on the planet. I unbox, review and explain how it all works.",
+          "customUrl": "@unboxtherapy",
+          "publishedAt": "2010-12-03T05:36:49Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/ytc/AL5GRJWmKB9R8_5vN2L3xQrY7sHf4gR8wE2qV5tKjN8=s88-c-k-c0x00ffffff-no-rj",
+              "width": 88,
+              "height": 88
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/ytc/AL5GRJWmKB9R8_5vN2L3xQrY7sHf4gR8wE2qV5tKjN8=s240-c-k-c0x00ffffff-no-rj",
+              "width": 240,
+              "height": 240
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/ytc/AL5GRJWmKB9R8_5vN2L3xQrY7sHf4gR8wE2qV5tKjN8=s800-c-k-c0x00ffffff-no-rj",
+              "width": 800,
+              "height": 800
+            }
+          },
+          "localized": {
+            "title": "Unbox Therapy",
+            "description": "The best technology on the planet. I unbox, review and explain how it all works."
+          },
+          "country": "CA"
+        },
+        "statistics": {
+          "viewCount": "4892746315",
+          "subscriberCount": "18400000",
+          "hiddenSubscriberCount": false,
+          "videoCount": "4672"
+        },
+        "status": {
+          "privacyStatus": "public",
+          "isLinked": true,
+          "longUploadsStatus": "allowed",
+          "madeForKids": false,
+          "selfDeclaredMadeForKids": false
+        }
+      }
+    ]
+  },
+  "channel_not_found_response": {
+    "kind": "youtube#channelListResponse",
+    "etag": "NotFoundEtagExample123",
+    "pageInfo": {
+      "totalResults": 0,
+      "resultsPerPage": 50
+    },
+    "items": []
+  },
+  "quota_exceeded_error": {
+    "error": {
+      "code": 403,
+      "message": "The request cannot be completed because you have exceeded your quota.",
+      "errors": [
+        {
+          "message": "The request cannot be completed because you have exceeded your quota.",
+          "domain": "youtube.quota",
+          "reason": "quotaExceeded"
+        }
+      ]
+    }
+  },
+  "rate_limit_error": {
+    "error": {
+      "code": 429,
+      "message": "Rate limit exceeded. Too many requests.",
+      "errors": [
+        {
+          "message": "Rate limit exceeded. Too many requests.",
+          "domain": "usageLimits",
+          "reason": "rateLimitExceeded"
+        }
+      ]
+    }
+  },
+  "api_key_invalid_error": {
+    "error": {
+      "code": 400,
+      "message": "API key not valid. Please pass a valid API key.",
+      "errors": [
+        {
+          "message": "API key not valid. Please pass a valid API key.",
+          "domain": "global",
+          "reason": "badRequest"
+        }
+      ]
+    }
+  },
+  "channels_mixed_results": {
+    "kind": "youtube#channelListResponse",
+    "etag": "MixedResultsEtag123456",
+    "pageInfo": {
+      "totalResults": 2,
+      "resultsPerPage": 50
+    },
+    "items": [
+      {
+        "kind": "youtube#channel",
+        "etag": "validChannelEtag123",
+        "id": "UC_x5XSgRAhiGOqGCKOQJXIA",
+        "snippet": {
+          "title": "The Verge",
+          "description": "The Verge covers the intersection of technology, science, art, and culture.",
+          "customUrl": "@theverge",
+          "publishedAt": "2011-03-01T22:32:04Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/ytc/AL5GRJXKj3f5R8N2V3xQrY8sHf4gR9wE2qV6tKjN9=s88-c-k-c0x00ffffff-no-rj",
+              "width": 88,
+              "height": 88
+            }
+          },
+          "localized": {
+            "title": "The Verge",
+            "description": "The Verge covers the intersection of technology, science, art, and culture."
+          },
+          "country": "US"
+        },
+        "statistics": {
+          "viewCount": "3251874692",
+          "subscriberCount": "3120000",
+          "hiddenSubscriberCount": false,
+          "videoCount": "13254"
+        },
+        "status": {
+          "privacyStatus": "public",
+          "isLinked": true,
+          "longUploadsStatus": "allowed",
+          "madeForKids": false,
+          "selfDeclaredMadeForKids": false
+        }
+      }
+    ]
+  },
+  "private_channel_response": {
+    "kind": "youtube#channelListResponse",
+    "etag": "PrivateChannelEtag789",
+    "pageInfo": {
+      "totalResults": 1,
+      "resultsPerPage": 50
+    },
+    "items": [
+      {
+        "kind": "youtube#channel",
+        "etag": "privateEtag456789",
+        "id": "UCPrivateChannelExample123",
+        "snippet": {
+          "title": "Private Channel Example",
+          "description": "This is a private channel for testing.",
+          "publishedAt": "2015-06-15T14:20:30Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/ytc/default-channel-avatar.jpg",
+              "width": 88,
+              "height": 88
+            }
+          },
+          "localized": {
+            "title": "Private Channel Example",
+            "description": "This is a private channel for testing."
+          }
+        },
+        "statistics": {
+          "viewCount": "0",
+          "subscriberCount": "0",
+          "hiddenSubscriberCount": true,
+          "videoCount": "0"
+        },
+        "status": {
+          "privacyStatus": "private",
+          "isLinked": false,
+          "longUploadsStatus": "disallowed",
+          "madeForKids": false,
+          "selfDeclaredMadeForKids": false
+        }
+      }
+    ]
+  },
+  "gaming_channels_response": {
+    "kind": "youtube#channelListResponse",
+    "etag": "GamingChannelsEtag456",
+    "pageInfo": {
+      "totalResults": 2,
+      "resultsPerPage": 50
+    },
+    "items": [
+      {
+        "kind": "youtube#channel",
+        "etag": "gamingEtag123456",
+        "id": "UC-lHJZR3Gqxm24_Vd_AJ5Yw",
+        "snippet": {
+          "title": "PewDiePie", 
+          "description": "I make videos.",
+          "customUrl": "@pewdiepie",
+          "publishedAt": "2010-04-29T10:54:00Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/ytc/AL5GRJVnFJdWx5rX3Qt7Y8sH4gR9wE3qV7tKjN0=s88-c-k-c0x00ffffff-no-rj",
+              "width": 88,
+              "height": 88
+            }
+          },
+          "localized": {
+            "title": "PewDiePie",
+            "description": "I make videos."
+          },
+          "country": "JP"
+        },
+        "statistics": {
+          "viewCount": "29184752896",
+          "subscriberCount": "111000000",
+          "hiddenSubscriberCount": false,
+          "videoCount": "4856"
+        },
+        "status": {
+          "privacyStatus": "public",
+          "isLinked": true,
+          "longUploadsStatus": "allowed",
+          "madeForKids": false,
+          "selfDeclaredMadeForKids": false
+        }
+      },
+      {
+        "kind": "youtube#channel",
+        "etag": "gamingEtag789012",
+        "id": "UCX6OQ3DkcsbYNE6H8uQQuVA",
+        "snippet": {
+          "title": "MrBeast",
+          "description": "Subscribe for a Cookie! Business inquiries: business@mrbeast6000.com",
+          "customUrl": "@mrbeast",
+          "publishedAt": "2012-02-20T02:16:04Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/ytc/AL5GRJWDfx8rX2Qt6Y9sH3gR8wE4qV8tKjN1=s88-c-k-c0x00ffffff-no-rj",
+              "width": 88,
+              "height": 88
+            }
+          },
+          "localized": {
+            "title": "MrBeast",
+            "description": "Subscribe for a Cookie! Business inquiries: business@mrbeast6000.com"
+          },
+          "country": "US"
+        },
+        "statistics": {
+          "viewCount": "47256139874",
+          "subscriberCount": "206000000",
+          "hiddenSubscriberCount": false,
+          "videoCount": "778"
+        },
+        "status": {
+          "privacyStatus": "public",
+          "isLinked": true,
+          "longUploadsStatus": "allowed",
+          "madeForKids": false,
+          "selfDeclaredMadeForKids": false
+        }
+      }
+    ]
+  }
+}

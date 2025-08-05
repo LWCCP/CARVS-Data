@@ -1,6 +1,128 @@
 {
-  "_comment": "Rate limiting configuration - To be populated by devops-engineer",
-  "youtube_api": {},
-  "wayback_machine": {},
-  "viewstats": {}
+  "_comment": "Rate limiting configuration for YouNiverse Dataset Enrichment Pipeline",
+  "_metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-08-04",
+    "channels_target": 153550,
+    "processing_timeline": "3_days"
+  },
+  
+  "youtube_api": {
+    "quota_limit": 10000,
+    "quota_period": "daily",
+    "quota_reset_time": "00:00:00 UTC",
+    "batch_size": 50,
+    "cost_per_request": 1,
+    "max_concurrent_requests": 4,
+    "request_timeout": 30,
+    "rate_limiting": {
+      "requests_per_second": 100,
+      "burst_allowance": 50,
+      "sliding_window_seconds": 60
+    },
+    "circuit_breaker": {
+      "failure_threshold": 5,
+      "recovery_timeout": 300,
+      "half_open_max_calls": 3
+    },
+    "backoff_strategy": {
+      "initial_delay": 1,
+      "max_delay": 60,
+      "multiplier": 2,
+      "jitter": true
+    },
+    "retry_policy": {
+      "max_retries": 3,
+      "retry_on_status_codes": [429, 500, 502, 503, 504],
+      "retry_on_exceptions": ["ConnectionError", "Timeout", "ChunkedEncodingError"]
+    }
+  },
+
+  "wayback_machine": {
+    "base_delay": 1.0,
+    "respectful_delay": 1.2,
+    "max_concurrent_requests": 2,
+    "request_timeout": 45,
+    "rate_limiting": {
+      "requests_per_second": 1,
+      "burst_allowance": 3,
+      "sliding_window_seconds": 10
+    },
+    "circuit_breaker": {
+      "failure_threshold": 3,
+      "recovery_timeout": 600,
+      "half_open_max_calls": 1
+    },
+    "backoff_strategy": {
+      "initial_delay": 2,
+      "max_delay": 300,
+      "multiplier": 1.5,
+      "jitter": true
+    },
+    "retry_policy": {
+      "max_retries": 5,
+      "retry_on_status_codes": [429, 500, 502, 503, 504, 520, 521, 522, 523, 524],
+      "retry_on_exceptions": ["ConnectionError", "Timeout", "ReadTimeout"],
+      "archive_specific_delays": {
+        "cdx_api": 1.0,
+        "snapshot_requests": 1.5
+      }
+    },
+    "adaptive_throttling": {
+      "enabled": true,
+      "monitor_response_times": true,
+      "slow_response_threshold": 10.0,
+      "throttle_factor": 1.5
+    }
+  },
+
+  "viewstats": {
+    "base_delay": 0.5,
+    "max_concurrent_requests": 3,
+    "request_timeout": 25,
+    "rate_limiting": {
+      "requests_per_second": 2,
+      "burst_allowance": 5,
+      "sliding_window_seconds": 30
+    },
+    "circuit_breaker": {
+      "failure_threshold": 4,
+      "recovery_timeout": 180,
+      "half_open_max_calls": 2
+    },
+    "backoff_strategy": {
+      "initial_delay": 1,
+      "max_delay": 120,
+      "multiplier": 2,
+      "jitter": true
+    },
+    "retry_policy": {
+      "max_retries": 4,
+      "retry_on_status_codes": [429, 500, 502, 503, 504],
+      "retry_on_exceptions": ["ConnectionError", "Timeout", "HTTPError"]
+    },
+    "anti_bot_measures": {
+      "user_agent_rotation": true,
+      "session_management": true,
+      "request_spacing_variance": 0.3
+    }
+  },
+
+  "global_settings": {
+    "max_total_concurrent_requests": 8,
+    "memory_pressure_threshold": 0.85,
+    "disk_space_threshold": 0.9,
+    "network_timeout_multiplier": 1.5,
+    "health_check_interval": 60,
+    "metrics_collection": {
+      "enabled": true,
+      "sample_rate": 0.1,
+      "retention_days": 30
+    },
+    "emergency_brake": {
+      "enabled": true,
+      "error_rate_threshold": 0.3,
+      "evaluation_window": 300
+    }
+  }
 }

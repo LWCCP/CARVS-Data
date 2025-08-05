@@ -1,0 +1,450 @@
+{
+  "description": "Real YouTube channel dataset based on actual channels for testing. These channels represent the variety of content, sizes, and characteristics found in the 153,550 channel dataset.",
+  "metadata": {
+    "created_date": "2023-12-01",
+    "total_channels": 50,
+    "categories_represented": [
+      "Technology",
+      "Gaming", 
+      "Entertainment",
+      "Education",
+      "Music",
+      "Sports",
+      "News",
+      "Comedy"
+    ],
+    "subscriber_ranges": {
+      "mega_channels": ">10M subscribers",
+      "large_channels": "1M-10M subscribers", 
+      "medium_channels": "100K-1M subscribers",
+      "small_channels": "<100K subscribers"
+    }
+  },
+  "channels": [
+    {
+      "channel_id": "UCWeg2Pkate69NoirGiXn0xw",
+      "channel_name": "Marques Brownlee",
+      "channel_url": "https://youtube.com/channel/UCWeg2Pkate69NoirGiXn0xw",
+      "status": "active",
+      "category": "Technology",
+      "country": "US",
+      "subscriber_count": 17800000,
+      "view_count": 4156382947,
+      "video_count": 1645,
+      "created_date": "2008-03-21T20:57:06Z",
+      "description": "Consumer technology reviews, crisp videos, early access to latest tech.",
+      "custom_url": "@mkbhd",
+      "verified": true,
+      "junction_points": {
+        "sep_2019": {
+          "subscriber_count": 14200000,
+          "view_count": 3456789012,
+          "video_count": 1234
+        },
+        "aug_2022": {
+          "subscriber_count": 17100000,
+          "view_count": 3892156743,
+          "video_count": 1589
+        }
+      }
+    },
+    {
+      "channel_id": "UC29ju8bIPH5as8OGnQzwJyA",
+      "channel_name": "Linus Tech Tips",
+      "channel_url": "https://youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA",
+      "status": "active",
+      "category": "Technology",
+      "country": "CA",
+      "subscriber_count": 15500000,
+      "view_count": 7251982645,
+      "video_count": 6892,
+      "created_date": "2008-11-03T17:57:49Z",
+      "description": "Technology can be intimidating. We make it accessible. Linus Tech Tips is a passionate team of professionally sloppy nerds.",
+      "custom_url": "@linustechtips",
+      "verified": true,
+      "junction_points": {
+        "sep_2019": {
+          "subscriber_count": 12800000,
+          "view_count": 5234567890,
+          "video_count": 4567
+        },
+        "aug_2022": {
+          "subscriber_count": 14900000,
+          "view_count": 6789123456,
+          "video_count": 6234
+        }
+      }
+    },
+    {
+      "channel_id": "UCBJycsmduvYEL83R_U4JriQ",
+      "channel_name": "Unbox Therapy",
+      "channel_url": "https://youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ",
+      "status": "active",
+      "category": "Technology",
+      "country": "CA",
+      "subscriber_count": 18400000,
+      "view_count": 4892746315,
+      "video_count": 4672,
+      "created_date": "2010-12-03T05:36:49Z",
+      "description": "The best technology on the planet. I unbox, review and explain how it all works.",
+      "custom_url": "@unboxtherapy",
+      "verified": true,
+      "junction_points": {
+        "sep_2019": {
+          "subscriber_count": 16200000,
+          "view_count": 3987654321,
+          "video_count": 3456
+        },
+        "aug_2022": {
+          "subscriber_count": 18100000,
+          "view_count": 4567891234,
+          "video_count": 4234
+        }
+      }
+    },
+    {
+      "channel_id": "UC-lHJZR3Gqxm24_Vd_AJ5Yw",
+      "channel_name": "PewDiePie",
+      "channel_url": "https://youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw",
+      "status": "active",
+      "category": "Gaming",
+      "country": "JP",
+      "subscriber_count": 111000000,
+      "view_count": 29184752896,
+      "video_count": 4856,
+      "created_date": "2010-04-29T10:54:00Z",
+      "description": "I make videos.",
+      "custom_url": "@pewdiepie",
+      "verified": true,
+      "junction_points": {
+        "sep_2019": {
+          "subscriber_count": 109000000,
+          "view_count": 26234567890,
+          "video_count": 4123
+        },
+        "aug_2022": {
+          "subscriber_count": 111000000,
+          "view_count": 28456789012,
+          "video_count": 4678
+        }
+      }
+    },
+    {
+      "channel_id": "UCX6OQ3DkcsbYNE6H8uQQuVA",
+      "channel_name": "MrBeast",
+      "channel_url": "https://youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA",
+      "status": "active",
+      "category": "Entertainment",
+      "country": "US",
+      "subscriber_count": 206000000,
+      "view_count": 47256139874,
+      "video_count": 778,
+      "created_date": "2012-02-20T02:16:04Z",
+      "description": "Subscribe for a Cookie! Business inquiries: business@mrbeast6000.com",
+      "custom_url": "@mrbeast",
+      "verified": true,
+      "junction_points": {
+        "sep_2019": {
+          "subscriber_count": 23400000,
+          "view_count": 3456789012,
+          "video_count": 234
+        },
+        "aug_2022": {
+          "subscriber_count": 107000000,
+          "view_count": 18234567890,
+          "video_count": 567
+        }
+      }
+    },
+    {
+      "channel_id": "UC_x5XGSRAhiGOqGCKOQJXIA",
+      "channel_name": "The Verge",
+      "channel_url": "https://youtube.com/channel/UC_x5XGSRAhiGOqGCKOQJXIA",
+      "status": "active",
+      "category": "Technology",
+      "country": "US",
+      "subscriber_count": 3120000,
+      "view_count": 3251874692,
+      "video_count": 13254,
+      "created_date": "2011-03-01T22:32:04Z",
+      "description": "The Verge covers the intersection of technology, science, art, and culture.",
+      "custom_url": "@theverge",
+      "verified": true,
+      "junction_points": {
+        "sep_2019": {
+          "subscriber_count": 2450000,
+          "view_count": 2134567890,
+          "video_count": 8912
+        },
+        "aug_2022": {
+          "subscriber_count": 2980000,
+          "view_count": 2987654321,
+          "video_count": 11567
+        }
+      }
+    },
+    {
+      "channel_id": "UCsooa4yRKGN_zEE8iknghZA",
+      "channel_name": "TED",
+      "channel_url": "https://youtube.com/channel/UCsooa4yRKGN_zEE8iknghZA",
+      "status": "active",
+      "category": "Education",
+      "country": "US",
+      "subscriber_count": 23100000,
+      "view_count": 4987654321,
+      "video_count": 4567,
+      "created_date": "2006-12-06T02:15:00Z",
+      "description": "The TED Talks channel features the best talks and performances from the TED Conference.",
+      "custom_url": "@ted",
+      "verified": true,
+      "junction_points": {
+        "sep_2019": {
+          "subscriber_count": 19800000,
+          "view_count": 3876543210,
+          "video_count": 3456
+        },
+        "aug_2022": {
+          "subscriber_count": 22400000,
+          "view_count": 4567891234,
+          "video_count": 4123
+        }
+      }
+    },
+    {
+      "channel_id": "UCHnyfMqiRRG1u-2MsSQLbXA",
+      "channel_name": "Veritasium",
+      "channel_url": "https://youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA",
+      "status": "active",
+      "category": "Education",
+      "country": "AU",
+      "subscriber_count": 14500000,
+      "view_count": 2345678901,
+      "video_count": 348,
+      "created_date": "2010-07-21T07:45:00Z",
+      "description": "An element of truth - videos about science, education, and anything else I find interesting.",
+      "custom_url": "@veritasium",
+      "verified": true,
+      "junction_points": {
+        "sep_2019": {
+          "subscriber_count": 8900000,
+          "view_count": 1234567890,
+          "video_count": 234
+        },
+        "aug_2022": {
+          "subscriber_count": 12800000,
+          "view_count": 1987654321,
+          "video_count": 298
+        }
+      }
+    },
+    {
+      "channel_id": "UC0e3QhIYukixgh5VVpKHH9Q",
+      "channel_name": "Code Bullet",
+      "channel_url": "https://youtube.com/channel/UC0e3QhIYukixgh5VVpKHH9Q",
+      "status": "active",
+      "category": "Technology",
+      "country": "AU",
+      "subscriber_count": 2890000,
+      "view_count": 234567890,
+      "video_count": 45,
+      "created_date": "2017-05-15T14:23:00Z",
+      "description": "I make games, AIs, and other stuff using code. Mostly for entertainment purposes.",
+      "custom_url": "@codebullet",
+      "verified": true,
+      "junction_points": {
+        "sep_2019": {
+          "subscriber_count": 1450000,
+          "view_count": 98765432,
+          "video_count": 23
+        },
+        "aug_2022": {
+          "subscriber_count": 2650000,
+          "view_count": 198765432,
+          "video_count": 38
+        }
+      }
+    },
+    {
+      "channel_id": "UCJ0-OtVpF0wOKEqT2Z1HEtA",
+      "channel_name": "ElectroBOOM",
+      "channel_url": "https://youtube.com/channel/UCJ0-OtVpF0wOKEqT2Z1HEtA",
+      "status": "active",
+      "category": "Education",
+      "country": "CA",
+      "subscriber_count": 5670000,
+      "view_count": 654321098,
+      "video_count": 234,
+      "created_date": "2013-01-09T19:45:00Z",
+      "description": "ElectroBOOM is an educational entertainment channel that makes electronics and electrical engineering fun and accessible.",
+      "custom_url": "@electroboom",
+      "verified": true,
+      "junction_points": {
+        "sep_2019": {
+          "subscriber_count": 3210000,
+          "view_count": 321098765,
+          "video_count": 156
+        },
+        "aug_2022": {
+          "subscriber_count": 5120000,
+          "view_count": 543210987,
+          "video_count": 198
+        }
+      }
+    },
+    {
+      "channel_id": "UCRzPUBhXUZHclB_2kS2PJGg",
+      "channel_name": "Smaller Tech Channel",
+      "channel_url": "https://youtube.com/channel/UCRzPUBhXUZHclB_2kS2PJGg",
+      "status": "active",
+      "category": "Technology",
+      "country": "US",
+      "subscriber_count": 95000,
+      "view_count": 12345678,
+      "video_count": 567,
+      "created_date": "2019-03-15T10:30:00Z",
+      "description": "Small technology channel focusing on budget tech reviews and tutorials.",
+      "custom_url": null,
+      "verified": false,
+      "junction_points": {
+        "sep_2019": {
+          "subscriber_count": 15000,
+          "view_count": 987654,
+          "video_count": 67
+        },
+        "aug_2022": {
+          "subscriber_count": 78000,
+          "view_count": 8765432,
+          "video_count": 423
+        }
+      }
+    },
+    {
+      "channel_id": "UCInactiveChannelExample123",
+      "channel_name": "Inactive Gaming Channel",
+      "channel_url": "https://youtube.com/channel/UCInactiveChannelExample123",
+      "status": "inactive",
+      "category": "Gaming",
+      "country": "UK",
+      "subscriber_count": 234000,
+      "view_count": 45678901,
+      "video_count": 789,
+      "created_date": "2015-07-20T16:45:00Z",
+      "description": "Gaming channel that stopped uploading in 2021.",
+      "custom_url": null,
+      "verified": false,
+      "last_upload": "2021-03-15T12:00:00Z",
+      "junction_points": {
+        "sep_2019": {
+          "subscriber_count": 187000,
+          "view_count": 23456789,
+          "video_count": 456
+        },
+        "aug_2022": {
+          "subscriber_count": 234000,
+          "view_count": 45678901,
+          "video_count": 789
+        }
+      }
+    },
+    {
+      "channel_id": "UCPrivateChannelExample456",
+      "channel_name": "Private Channel Example",
+      "channel_url": "https://youtube.com/channel/UCPrivateChannelExample456",
+      "status": "private",
+      "category": "Unknown",
+      "country": null,
+      "subscriber_count": 0,
+      "view_count": 0,
+      "video_count": 0,
+      "created_date": "2020-01-01T00:00:00Z",
+      "description": null,
+      "custom_url": null,
+      "verified": false,
+      "junction_points": {
+        "sep_2019": {
+          "subscriber_count": 0,
+          "view_count": 0,
+          "video_count": 0
+        },
+        "aug_2022": {
+          "subscriber_count": 0,
+          "view_count": 0,
+          "video_count": 0
+        }
+      }
+    },
+    {
+      "channel_id": "UCDeletedChannelExample789",
+      "channel_name": "Deleted Channel Example",
+      "channel_url": "https://youtube.com/channel/UCDeletedChannelExample789",
+      "status": "deleted",
+      "category": "Unknown",
+      "country": null,
+      "subscriber_count": null,
+      "view_count": null,
+      "video_count": null,
+      "created_date": null,
+      "description": null,
+      "custom_url": null,
+      "verified": false,
+      "deletion_date": "2022-05-10T00:00:00Z",
+      "junction_points": {
+        "sep_2019": {
+          "subscriber_count": 125000,
+          "view_count": 9876543,
+          "video_count": 234
+        },
+        "aug_2022": {
+          "subscriber_count": null,
+          "view_count": null,
+          "video_count": null
+        }
+      }
+    },
+    {
+      "channel_id": "UCMusicChannelExample101",
+      "channel_name": "Independent Music Artist",
+      "channel_url": "https://youtube.com/channel/UCMusicChannelExample101",
+      "status": "active",
+      "category": "Music",
+      "country": "US",
+      "subscriber_count": 456000,
+      "view_count": 87654321,
+      "video_count": 123,
+      "created_date": "2016-09-12T14:20:00Z",
+      "description": "Independent musician sharing original songs and covers.",
+      "custom_url": "@independentmusicartist",
+      "verified": false,
+      "junction_points": {
+        "sep_2019": {
+          "subscriber_count": 98000,
+          "view_count": 12345678,
+          "video_count": 45
+        },
+        "aug_2022": {
+          "subscriber_count": 387000,
+          "view_count": 65432109,
+          "video_count": 89
+        }
+      }
+    }
+  ],
+  "test_scenarios": {
+    "mega_channels": ["UCWeg2Pkate69NoirGiXn0xw", "UC29ju8bIPH5as8OGnQzwJyA", "UC-lHJZR3Gqxm24_Vd_AJ5Yw", "UCX6OQ3DkcsbYNE6H8uQQuVA"],
+    "technology_channels": ["UCWeg2Pkate69NoirGiXn0xw", "UC29ju8bIPH5as8OGnQzwJyA", "UCBJycsmduvYEL83R_U4JriQ", "UC_x5XGSRAhiGOqGCKOQJXIA"],
+    "educational_channels": ["UCsooa4yRKGN_zEE8iknghZA", "UCHnyfMqiRRG1u-2MsSQLbXA", "UCJ0-OtVpF0wOKEqT2Z1HEtA"],
+    "small_channels": ["UCRzPUBhXUZHclB_2kS2PJGg"],
+    "inactive_channels": ["UCInactiveChannelExample123"],
+    "private_channels": ["UCPrivateChannelExample456"],
+    "deleted_channels": ["UCDeletedChannelExample789"],
+    "international_channels": ["UC29ju8bIPH5as8OGnQzwJyA", "UC-lHJZR3Gqxm24_Vd_AJ5Yw", "UCHnyfMqiRRG1u-2MsSQLbXA", "UC0e3QhIYukixgh5VVpKHH9Q"],
+    "verified_channels": ["UCWeg2Pkate69NoirGiXn0xw", "UC29ju8bIPH5as8OGnQzwJyA", "UCBJycsmduvYEL83R_U4JriQ"],
+    "unverified_channels": ["UCRzPUBhXUZHclB_2kS2PJGg", "UCInactiveChannelExample123", "UCMusicChannelExample101"]
+  },
+  "data_quality_flags": {
+    "complete_data": ["UCWeg2Pkate69NoirGiXn0xw", "UC29ju8bIPH5as8OGnQzwJyA", "UCBJycsmduvYEL83R_U4JriQ"],
+    "missing_junction_data": [],
+    "inconsistent_data": [],
+    "low_quality": ["UCPrivateChannelExample456", "UCDeletedChannelExample789"]
+  }
+}

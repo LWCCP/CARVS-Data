@@ -1,0 +1,54 @@
+[
+  {
+    "channel_id": "UCuAXFkgsw1L7xaCfnd5JJOw",
+    "channel_name": "Rick Astley",
+    "channel_handle": "",
+    "category": "Other",
+    "country": "GB",
+    "language": "",
+    "status": "active",
+    "created_date": "2015-02-01",
+    "description": "Never: The Autobiography -  Out now 📚",
+    "keywords": [],
+    "current_metrics": {
+      "subscriber_count": 4380000,
+      "total_view_count": 2292814933,
+      "video_count": 344,
+      "total_longform_views": 0,
+      "total_shorts_views": 0,
+      "average_views_per_video": 6665159.688953488,
+      "subscriber_to_view_ratio": 0.0019103155413721304,
+      "last_updated": "2025-08-04T15:32:40.279410"
+    },
+    "history": {
+      "first_data_point": null,
+      "last_data_point": null,
+      "total_data_points": 0,
+      "data_coverage_percentage": 0.0,
+      "junction_points_validated": [],
+      "collection_sources_used": [
+        "youtube_api"
+      ],
+      "quality_score": 0.0
+    },
+    "collection_metadata": {
+      "collection_sources": {
+        "youtube_api": {
+          "timestamp": "2025-08-04T15:32:40.279428",
+          "details": {
+            "timestamp": "2025-08-04T15:32:40.279420",
+            "privacy_status": "public",
+            "subscriber_count_hidden": true,
+            "quota_cost": 1
+          }
+        }
+      }
+    },
+    "data_quality_score": 0.0,
+    "validation_flags": [],
+    "last_validated": null,
+    "processing_status": "enriched",
+    "processing_notes": "Successfully enriched via YouTube API",
+    "last_updated": "2025-08-04T15:32:40.279416"
+  }
+]

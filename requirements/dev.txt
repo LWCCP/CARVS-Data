@@ -1,2 +1,97 @@
-# Development dependencies
-# To be populated by devops-engineer
+# Development and testing dependencies for YouNiverse Dataset Enrichment Pipeline
+# Include base requirements
+-r base.txt
+
+# Testing frameworks
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+pytest-xdist>=3.5.0
+pytest-timeout>=2.2.0
+pytest-benchmark>=4.0.0
+
+# Test data and fixtures
+factory-boy>=3.3.0
+faker>=20.1.0
+responses>=0.24.0
+httpretty>=1.1.4
+aioresponses>=0.7.4
+
+# Code quality and formatting
+black>=23.12.0
+isort>=5.13.0
+flake8>=6.1.0
+mypy>=1.8.0
+pylint>=3.0.0
+bandit>=1.7.5
+
+# Code analysis and security
+safety>=2.3.0
+pre-commit>=3.6.0
+commitizen>=3.13.0
+
+# Documentation generation
+sphinx>=7.2.0
+sphinx-rtd-theme>=1.3.0
+sphinx-autodoc-typehints>=1.25.0
+myst-parser>=2.0.0
+
+# Development utilities
+ipython>=8.18.0
+jupyter>=1.0.0
+notebook>=7.0.0
+jupyterlab>=4.0.0
+
+# Debugging and profiling
+pdbpp>=0.10.3
+line-profiler>=4.1.1
+py-spy>=0.3.14
+scalene>=1.5.26
+
+# Environment management
+pipenv>=2023.11.15
+virtualenv>=20.25.0
+
+# API testing and mocking
+httpx>=0.25.0
+respx>=0.20.2
+vcr-py>=5.1.0
+
+# Performance testing
+locust>=2.17.0
+pytest-benchmark>=4.0.0
+
+# Data validation testing
+hypothesis>=6.92.0
+pytest-datadir>=1.4.1
+
+# Monitoring and metrics in development
+prometheus-client>=0.19.0
+grafana-api>=1.0.3
+
+# Development server utilities
+watchdog>=3.0.0
+python-dotenv>=1.0.0
+
+# Linting and type checking
+types-requests>=2.31.0
+types-PyYAML>=6.0.12
+types-python-dateutil>=2.8.19
+types-redis>=4.6.0
+
+# Code coverage and reporting
+coverage>=7.3.0
+codecov>=2.1.13
+
+# Development workflow
+tox>=4.11.0
+nox>=2023.4.22
+
+# Interactive development
+rich>=13.7.0
+typer>=0.9.0
+
+# Development database utilities
+alembic>=1.13.0  # If using database migrations
+sqlalchemy>=2.0.0  # If using SQL databases

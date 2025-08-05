@@ -1,0 +1,553 @@
+"""
+Pytest Configuration and Shared Fixtures for YouNiverse Dataset Enrichment
+
+This module provides comprehensive test configuration including:
+- Mock API clients and responses
+- Test data fixtures
+- Configuration overrides
+- Performance testing utilities
+- Integration test setup
+
+Author: test-strategist
+"""
+
+import pytest
+import tempfile
+import shutil
+import json
+import time
+import random
+from pathlib import Path
+from typing import Dict, Any, List, Optional
+from unittest.mock import Mock, MagicMock, patch
+from datetime import datetime, timedelta
+import threading
+import requests
+from dataclasses import dataclass
+
+# Import project modules
+from src.core.config import ConfigManager, YouTubeAPIConfig, RateLimitConfig
+from src.models.channel import Channel, ChannelStatus, ChannelCategory
+from src.utils.api_helpers import RateLimiter, CircuitBreaker, YouTubeAPIClient
+from src.data_collectors.base_collector import CollectionProgress, CollectorStats
+
+
+# Test Configuration Constants
+TEST_YOUTUBE_API_KEY = "test_youtube_api_key_12345"
+TEST_VIEWSTATS_API_KEY = "test_viewstats_api_key_67890"
+TEST_BATCH_SIZE = 5  # Smaller batch size for testing
+TEST_RATE_LIMIT = 10.0  # Higher rate limit for faster tests
+
+
+@dataclass
+class TestConfig:
+    """Test configuration container"""
+    temp_dir: Path
+    checkpoint_dir: Path
+    config_file: Path
+    log_file: Path
+    use_real_apis: bool = False
+    enable_performance_tests: bool = False
+    max_test_channels: int = 100
+
+
+# ==================== PYTEST CONFIGURATION ====================
+
+def pytest_configure(config):
+    """Configure pytest with custom markers"""
+    config.addinivalue_line(
+        "markers", "unit: Unit tests - fast, isolated tests"
+    )
+    config.addinivalue_line(
+        "markers", "integration: Integration tests - slower, end-to-end tests"
+    )
+    config.addinivalue_line(
+        "markers", "performance: Performance tests - resource intensive"
+    )
+    config.addinivalue_line(
+        "markers", "api_integration: Real API integration tests - require API keys"
+    )
+    config.addinivalue_line(
+        "markers", "slow: Slow tests - may take >10 seconds"
+    )
+
+
+def pytest_collection_modifyitems(config, items):
+    """Automatically mark tests based on their location"""
+    for item in items:
+        # Mark unit tests
+        if "unit" in str(item.fspath):
+            item.add_marker(pytest.mark.unit)
+        
+        # Mark integration tests
+        if "integration" in str(item.fspath):
+            item.add_marker(pytest.mark.integration)
+        
+        # Mark performance tests
+        if "performance" in item.name or "load" in item.name:
+            item.add_marker(pytest.mark.performance)
+        
+        # Mark API integration tests
+        if "api_integration" in item.name or "real_api" in item.name:
+            item.add_marker(pytest.mark.api_integration)
+
+
+# ==================== CORE FIXTURES ====================
+
+@pytest.fixture(scope="session")
+def test_config():
+    """Create test configuration with temporary directories"""
+    temp_dir = Path(tempfile.mkdtemp(prefix="youniverse_test_"))
+    
+    config = TestConfig(
+        temp_dir=temp_dir,
+        checkpoint_dir=temp_dir / "checkpoints",
+        config_file=temp_dir / "test_config.json",
+        log_file=temp_dir / "test.log",
+        use_real_apis=False,  # Override with --real-apis flag
+        enable_performance_tests=False,  # Override with --performance flag
+        max_test_channels=100
+    )
+    
+    # Create directories
+    config.checkpoint_dir.mkdir(parents=True, exist_ok=True)
+    
+    yield config
+    
+    # Cleanup
+    if temp_dir.exists():
+        shutil.rmtree(temp_dir, ignore_errors=True)
+
+
+@pytest.fixture(scope="function")
+def clean_temp_dir(test_config):
+    """Ensure clean temporary directory for each test"""
+    # Clean checkpoint directory
+    if test_config.checkpoint_dir.exists():
+        shutil.rmtree(test_config.checkpoint_dir)
+    test_config.checkpoint_dir.mkdir(parents=True, exist_ok=True)
+    
+    yield test_config.temp_dir
+
+
+@pytest.fixture(scope="function")
+def mock_config_manager():
+    """Mock configuration manager with test settings"""
+    with patch('src.core.config.config_manager') as mock_manager:
+        # Create test YouTube config
+        youtube_config = YouTubeAPIConfig(
+            quota_limit=10000,
+            batch_size=TEST_BATCH_SIZE,
+            api_key=TEST_YOUTUBE_API_KEY,
+            rate_limiting=RateLimitConfig(
+                requests_per_second=TEST_RATE_LIMIT,
+                burst_allowance=5,
+                sliding_window_seconds=1
+            )
+        )
+        
+        mock_manager.get_youtube_config.return_value = youtube_config
+        mock_manager.get_config_value.return_value = "test_value"
+        
+        yield mock_manager
+
+
+# ==================== SAMPLE DATA FIXTURES ====================
+
+@pytest.fixture
+def sample_channel():
+    """Create a sample channel for testing"""
+    return Channel(
+        channel_id="UCtest123",
+        channel_name="Test Channel",
+        channel_url="https://youtube.com/channel/UCtest123",
+        status=ChannelStatus.ACTIVE,
+        category=ChannelCategory.ENTERTAINMENT,
+        country="US",
+        subscriber_count=10000,
+        view_count=1000000,
+        video_count=500,
+        created_date=datetime(2020, 1, 1),
+        last_updated=datetime.now()
+    )
+
+
+@pytest.fixture
+def sample_channels():
+    """Create a list of sample channels for testing"""
+    channels = []
+    for i in range(10):
+        channels.append(Channel(
+            channel_id=f"UCtest{i:03d}",
+            channel_name=f"Test Channel {i}",
+            channel_url=f"https://youtube.com/channel/UCtest{i:03d}",
+            status=ChannelStatus.ACTIVE,
+            category=ChannelCategory.ENTERTAINMENT,
+            country="US",
+            subscriber_count=1000 * (i + 1),
+            view_count=100000 * (i + 1),
+            video_count=50 * (i + 1),
+            created_date=datetime(2020, 1, 1),
+            last_updated=datetime.now()
+        ))
+    return channels
+
+
+@pytest.fixture
+def large_channel_dataset():
+    """Create a larger dataset for performance testing"""
+    channels = []
+    for i in range(1000):
+        channels.append(Channel(
+            channel_id=f"UCperf{i:04d}",
+            channel_name=f"Performance Test Channel {i}",
+            channel_url=f"https://youtube.com/channel/UCperf{i:04d}",
+            status=ChannelStatus.ACTIVE,
+            category=ChannelCategory.ENTERTAINMENT,
+            country="US",
+            subscriber_count=random.randint(1000, 1000000),
+            view_count=random.randint(100000, 10000000),
+            video_count=random.randint(10, 1000),
+            created_date=datetime(2020, 1, 1),
+            last_updated=datetime.now()
+        ))
+    return channels
+
+
+# ==================== MOCK API FIXTURES ====================
+
+@pytest.fixture
+def mock_youtube_api_response():
+    """Mock YouTube API response data"""
+    return {
+        "kind": "youtube#channelListResponse",
+        "etag": "test_etag",
+        "pageInfo": {
+            "totalResults": 1,
+            "resultsPerPage": 50
+        },
+        "items": [
+            {
+                "kind": "youtube#channel",
+                "etag": "test_channel_etag",
+                "id": "UCtest123",
+                "snippet": {
+                    "title": "Test Channel",
+                    "description": "A test channel",
+                    "country": "US",
+                    "publishedAt": "2020-01-01T00:00:00Z"
+                },
+                "statistics": {
+                    "viewCount": "1000000",
+                    "subscriberCount": "10000",
+                    "videoCount": "500"
+                },
+                "status": {
+                    "privacyStatus": "public"
+                }
+            }
+        ]
+    }
+
+
+@pytest.fixture
+def mock_youtube_client(mock_youtube_api_response):
+    """Mock YouTube API client"""
+    client = Mock(spec=YouTubeAPIClient)
+    client.get_channels.return_value = mock_youtube_api_response
+    client.quota_used = 0
+    client.quota_limit = 10000
+    client.cost_per_request = 1
+    return client
+
+
+@pytest.fixture
+def mock_requests_session():
+    """Mock requests session for HTTP testing"""
+    session = Mock(spec=requests.Session)
+    
+    # Create mock response
+    mock_response = Mock()
+    mock_response.status_code = 200
+    mock_response.json.return_value = {"status": "success", "data": "test"}
+    mock_response.raise_for_status.return_value = None
+    
+    session.request.return_value = mock_response
+    session.get.return_value = mock_response
+    session.post.return_value = mock_response
+    
+    return session
+
+
+# ==================== RATE LIMITING & CIRCUIT BREAKER FIXTURES ====================
+
+@pytest.fixture
+def test_rate_limiter():
+    """Create a rate limiter for testing"""
+    return RateLimiter(
+        requests_per_second=TEST_RATE_LIMIT,
+        burst_allowance=5,
+        sliding_window_seconds=1
+    )
+
+
+@pytest.fixture
+def test_circuit_breaker():
+    """Create a circuit breaker for testing"""
+    return CircuitBreaker(
+        failure_threshold=3,
+        recovery_timeout=1,  # Short timeout for testing
+        half_open_max_calls=1
+    )
+
+
+@pytest.fixture
+def failing_function():
+    """Function that always fails for circuit breaker testing"""
+    def fail():
+        raise Exception("Test failure")
+    return fail
+
+
+@pytest.fixture
+def intermittent_function():
+    """Function that fails then succeeds for testing"""
+    call_count = 0
+    
+    def maybe_fail():
+        nonlocal call_count
+        call_count += 1
+        if call_count <= 2:
+            raise Exception("Intermittent failure")
+        return "success"
+    
+    return maybe_fail
+
+
+# ==================== PROGRESS TRACKING FIXTURES ====================
+
+@pytest.fixture
+def sample_progress():
+    """Create sample collection progress"""
+    progress = CollectionProgress(
+        total_channels=100,
+        processed_channels=50,
+        successful_channels=45,
+        failed_channels=5,
+        start_time=datetime.now() - timedelta(minutes=30),
+        current_phase="Test Phase",
+        current_batch=5,
+        total_batches=10
+    )
+    return progress
+
+
+@pytest.fixture
+def sample_stats():
+    """Create sample collector statistics"""
+    stats = CollectorStats(
+        requests_made=100,
+        requests_successful=95,
+        requests_failed=5,
+        total_wait_time=15.5,
+        circuit_breaker_trips=1,
+        rate_limit_hits=10,
+        retry_attempts=8,
+        data_points_collected=1000,
+        bytes_downloaded=50000
+    )
+    return stats
+
+
+# ==================== CHECKPOINT FIXTURES ====================
+
+@pytest.fixture
+def sample_checkpoint_data():
+    """Create sample checkpoint data"""
+    return {
+        "collector_name": "TestCollector",
+        "timestamp": "2023-01-01T12:00:00",
+        "progress": {
+            "total_channels": 100,
+            "processed_channels": 50,
+            "successful_channels": 45,
+            "failed_channels": 5
+        },
+        "stats": {
+            "requests_made": 50,
+            "requests_successful": 45,
+            "requests_failed": 5
+        },
+        "processed_channels": [f"UCtest{i:03d}" for i in range(50)],
+        "failed_channels": ["UCfail001", "UCfail002"]
+    }
+
+
+@pytest.fixture
+def checkpoint_file(test_config, sample_checkpoint_data):
+    """Create a checkpoint file for testing"""
+    checkpoint_file = test_config.checkpoint_dir / "test_checkpoint.json"
+    with open(checkpoint_file, 'w') as f:
+        json.dump(sample_checkpoint_data, f)
+    return checkpoint_file
+
+
+# ==================== PERFORMANCE TESTING FIXTURES ====================
+
+@pytest.fixture
+def performance_timer():
+    """Timer for performance testing"""
+    class Timer:
+        def __init__(self):
+            self.start_time = None
+            self.end_time = None
+        
+        def start(self):
+            self.start_time = time.time()
+        
+        def stop(self):
+            self.end_time = time.time()
+        
+        def elapsed(self):
+            if self.start_time and self.end_time:
+                return self.end_time - self.start_time
+            return 0.0
+    
+    return Timer()
+
+
+@pytest.fixture
+def memory_profiler():
+    """Simple memory profiler for testing"""
+    try:
+        import psutil
+        process = psutil.Process()
+        
+        class MemoryProfiler:
+            def __init__(self):
+                self.initial_memory = None
+                self.peak_memory = None
+            
+            def start(self):
+                self.initial_memory = process.memory_info().rss
+                self.peak_memory = self.initial_memory
+            
+            def update(self):
+                current = process.memory_info().rss
+                if current > self.peak_memory:
+                    self.peak_memory = current
+            
+            def get_peak_mb(self):
+                if self.peak_memory:
+                    return self.peak_memory / 1024 / 1024
+                return 0.0
+            
+            def get_delta_mb(self):
+                if self.initial_memory and self.peak_memory:
+                    return (self.peak_memory - self.initial_memory) / 1024 / 1024
+                return 0.0
+        
+        return MemoryProfiler()
+    except ImportError:
+        # Return mock profiler if psutil not available
+        return Mock()
+
+
+# ==================== ERROR SIMULATION FIXTURES ====================
+
+@pytest.fixture
+def network_error_simulator():
+    """Simulate various network errors"""
+    class NetworkErrorSimulator:
+        def __init__(self):
+            self.error_count = 0
+            self.max_errors = 3
+        
+        def maybe_raise_error(self):
+            if self.error_count < self.max_errors:
+                self.error_count += 1
+                if self.error_count == 1:
+                    raise requests.exceptions.ConnectionError("Connection failed")
+                elif self.error_count == 2:
+                    raise requests.exceptions.Timeout("Request timeout")
+                elif self.error_count == 3:
+                    response = Mock()
+                    response.status_code = 429
+                    raise requests.exceptions.HTTPError("Rate limited", response=response)
+            return "success"
+    
+    return NetworkErrorSimulator()
+
+
+# ==================== INTEGRATION TEST FIXTURES ====================
+
+@pytest.fixture
+def integration_test_channels():
+    """Channels specifically for integration testing"""
+    # These are test channel IDs that should be safe for integration tests
+    return [
+        Channel(
+            channel_id="UCwgRzwblr9GHjBTYW0sIA",  # Sample test channel
+            channel_name="Integration Test Channel 1",
+            channel_url="https://youtube.com/channel/UCwgRzwblr9GHjBTYW0sIA",
+            status=ChannelStatus.ACTIVE
+        ),
+        Channel(
+            channel_id="UCBa659QWEk1AI4Tg--mrJ2A",  # Another sample
+            channel_name="Integration Test Channel 2",
+            channel_url="https://youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A",
+            status=ChannelStatus.ACTIVE
+        )
+    ]
+
+
+# ==================== PYTEST COMMAND LINE OPTIONS ====================
+
+def pytest_addoption(parser):
+    """Add command line options for test configuration"""
+    parser.addoption(
+        "--real-apis",
+        action="store_true",
+        default=False,
+        help="Run tests against real APIs (requires API keys)"
+    )
+    parser.addoption(
+        "--performance",
+        action="store_true",
+        default=False,
+        help="Run performance tests"
+    )
+    parser.addoption(
+        "--max-channels",
+        type=int,
+        default=100,
+        help="Maximum number of channels for testing"
+    )
+
+
+@pytest.fixture
+def pytest_options(request):
+    """Access pytest command line options"""
+    return {
+        'real_apis': request.config.getoption("--real-apis", default=False),
+        'performance': request.config.getoption("--performance", default=False),
+        'max_channels': request.config.getoption("--max-channels", default=100)
+    }
+
+
+# ==================== SKIP CONDITIONS ====================
+
+skip_without_api_keys = pytest.mark.skipif(
+    not (TEST_YOUTUBE_API_KEY and TEST_VIEWSTATS_API_KEY),
+    reason="API keys not configured for integration tests"
+)
+
+skip_performance_tests = pytest.mark.skipif(
+    True,  # Will be overridden by --performance flag
+    reason="Performance tests disabled by default"
+)
+
+skip_slow_tests = pytest.mark.skipif(
+    True,  # Will be overridden by test markers
+    reason="Slow tests disabled by default"
+)

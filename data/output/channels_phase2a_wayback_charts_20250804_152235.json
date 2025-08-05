@@ -1,0 +1,3963 @@
+[
+  {
+    "channel_id": "UCuAXFkgsw1L7xaCfnd5JJOw",
+    "collection_phase": "phase2a_wayback_charts",
+    "collection_timestamp": "2025-08-04T15:22:31.969485",
+    "success": true,
+    "error": null,
+    "data_points_collected": 312,
+    "weeks_covered": 155,
+    "snapshots_used": [
+      "20221102010043",
+      "20221030051308"
+    ],
+    "historical_data": [
+      {
+        "date": "2019-10-31T21:00:00",
+        "week_start": "2019-10-27T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2019-11-03T21:00:00",
+        "week_start": "2019-11-03T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2019-11-03T21:00:00",
+        "week_start": "2019-11-03T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2019-11-10T21:00:00",
+        "week_start": "2019-11-10T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2019-11-10T21:00:00",
+        "week_start": "2019-11-10T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2019-11-17T21:00:00",
+        "week_start": "2019-11-17T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2019-11-17T21:00:00",
+        "week_start": "2019-11-17T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2019-11-24T21:00:00",
+        "week_start": "2019-11-24T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2019-11-24T21:00:00",
+        "week_start": "2019-11-24T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2019-12-01T21:00:00",
+        "week_start": "2019-12-01T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2019-12-01T21:00:00",
+        "week_start": "2019-12-01T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2019-12-08T21:00:00",
+        "week_start": "2019-12-08T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2019-12-08T21:00:00",
+        "week_start": "2019-12-08T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2019-12-15T21:00:00",
+        "week_start": "2019-12-15T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2019-12-15T21:00:00",
+        "week_start": "2019-12-15T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2019-12-22T21:00:00",
+        "week_start": "2019-12-22T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2019-12-22T21:00:00",
+        "week_start": "2019-12-22T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2019-12-29T21:00:00",
+        "week_start": "2019-12-29T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2019-12-29T21:00:00",
+        "week_start": "2019-12-29T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-01-05T21:00:00",
+        "week_start": "2020-01-05T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-01-05T21:00:00",
+        "week_start": "2020-01-05T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-01-12T21:00:00",
+        "week_start": "2020-01-12T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-01-12T21:00:00",
+        "week_start": "2020-01-12T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-01-19T21:00:00",
+        "week_start": "2020-01-19T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-01-19T21:00:00",
+        "week_start": "2020-01-19T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-01-26T21:00:00",
+        "week_start": "2020-01-26T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-01-26T21:00:00",
+        "week_start": "2020-01-26T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-02-02T21:00:00",
+        "week_start": "2020-02-02T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-02-02T21:00:00",
+        "week_start": "2020-02-02T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-02-09T21:00:00",
+        "week_start": "2020-02-09T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-02-09T21:00:00",
+        "week_start": "2020-02-09T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-02-16T21:00:00",
+        "week_start": "2020-02-16T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-02-16T21:00:00",
+        "week_start": "2020-02-16T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-02-23T21:00:00",
+        "week_start": "2020-02-23T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-02-23T21:00:00",
+        "week_start": "2020-02-23T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-03-01T21:00:00",
+        "week_start": "2020-03-01T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-03-01T21:00:00",
+        "week_start": "2020-03-01T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-03-08T21:00:00",
+        "week_start": "2020-03-08T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-03-08T21:00:00",
+        "week_start": "2020-03-08T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-03-15T21:00:00",
+        "week_start": "2020-03-15T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-03-15T21:00:00",
+        "week_start": "2020-03-15T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-03-22T21:00:00",
+        "week_start": "2020-03-22T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-03-22T21:00:00",
+        "week_start": "2020-03-22T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-03-29T21:00:00",
+        "week_start": "2020-03-29T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-03-29T21:00:00",
+        "week_start": "2020-03-29T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-04-05T21:00:00",
+        "week_start": "2020-04-05T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-04-05T21:00:00",
+        "week_start": "2020-04-05T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-04-12T21:00:00",
+        "week_start": "2020-04-12T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-04-12T21:00:00",
+        "week_start": "2020-04-12T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      {
+        "date": "2020-04-19T21:00:00",
+        "week_start": "2020-04-19T21:00:00",
+        "subscribers": 157000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 157000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2020-04-19T21:00:00",
+        "week_start": "2020-04-19T21:00:00",
+        "subscribers": 157000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-04-26T21:00:00",
+        "week_start": "2020-04-26T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -147000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2020-04-26T21:00:00",
+        "week_start": "2020-04-26T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-05-03T21:00:00",
+        "week_start": "2020-05-03T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-05-03T21:00:00",
+        "week_start": "2020-05-03T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-05-10T21:00:00",
+        "week_start": "2020-05-10T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-05-10T21:00:00",
+        "week_start": "2020-05-10T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-05-17T21:00:00",
+        "week_start": "2020-05-17T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-05-17T21:00:00",
+        "week_start": "2020-05-17T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-05-24T21:00:00",
+        "week_start": "2020-05-24T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-05-24T21:00:00",
+        "week_start": "2020-05-24T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-05-31T21:00:00",
+        "week_start": "2020-05-31T21:00:00",
+        "subscribers": 10000,
+        "views": 8537871,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 8537871,
+        "data_quality_flags": [
+          "large_view_change"
+        ]
+      },
+      {
+        "date": "2020-05-31T21:00:00",
+        "week_start": "2020-05-31T21:00:00",
+        "subscribers": 10000,
+        "views": 8537871,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-06-07T21:00:00",
+        "week_start": "2020-06-07T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": -8537871,
+        "data_quality_flags": [
+          "large_view_change"
+        ]
+      },
+      {
+        "date": "2020-06-07T21:00:00",
+        "week_start": "2020-06-07T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-06-14T21:00:00",
+        "week_start": "2020-06-14T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-06-14T21:00:00",
+        "week_start": "2020-06-14T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-06-21T21:00:00",
+        "week_start": "2020-06-21T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-06-21T21:00:00",
+        "week_start": "2020-06-21T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-06-28T21:00:00",
+        "week_start": "2020-06-28T21:00:00",
+        "subscribers": 30000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-06-28T21:00:00",
+        "week_start": "2020-06-28T21:00:00",
+        "subscribers": 30000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-07-05T21:00:00",
+        "week_start": "2020-07-05T21:00:00",
+        "subscribers": 30000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-07-05T21:00:00",
+        "week_start": "2020-07-05T21:00:00",
+        "subscribers": 30000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-07-12T21:00:00",
+        "week_start": "2020-07-12T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-07-12T21:00:00",
+        "week_start": "2020-07-12T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-07-19T21:00:00",
+        "week_start": "2020-07-19T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-07-19T21:00:00",
+        "week_start": "2020-07-19T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-07-26T21:00:00",
+        "week_start": "2020-07-26T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2020-07-26T21:00:00",
+        "week_start": "2020-07-26T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-08-02T21:00:00",
+        "week_start": "2020-08-02T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-08-02T21:00:00",
+        "week_start": "2020-08-02T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-08-09T21:00:00",
+        "week_start": "2020-08-09T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-08-09T21:00:00",
+        "week_start": "2020-08-09T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-08-16T21:00:00",
+        "week_start": "2020-08-16T21:00:00",
+        "subscribers": 30000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-08-16T21:00:00",
+        "week_start": "2020-08-16T21:00:00",
+        "subscribers": 30000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-08-23T21:00:00",
+        "week_start": "2020-08-23T21:00:00",
+        "subscribers": 60000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 30000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-08-23T21:00:00",
+        "week_start": "2020-08-23T21:00:00",
+        "subscribers": 60000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-08-30T21:00:00",
+        "week_start": "2020-08-30T21:00:00",
+        "subscribers": 40000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -20000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-08-30T21:00:00",
+        "week_start": "2020-08-30T21:00:00",
+        "subscribers": 40000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-09-06T21:00:00",
+        "week_start": "2020-09-06T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -20000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2020-09-06T21:00:00",
+        "week_start": "2020-09-06T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-09-13T21:00:00",
+        "week_start": "2020-09-13T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-09-13T21:00:00",
+        "week_start": "2020-09-13T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-09-20T21:00:00",
+        "week_start": "2020-09-20T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2020-09-20T21:00:00",
+        "week_start": "2020-09-20T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-09-27T21:00:00",
+        "week_start": "2020-09-27T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-09-27T21:00:00",
+        "week_start": "2020-09-27T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-10-04T21:00:00",
+        "week_start": "2020-10-04T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-10-04T21:00:00",
+        "week_start": "2020-10-04T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-10-11T21:00:00",
+        "week_start": "2020-10-11T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-10-11T21:00:00",
+        "week_start": "2020-10-11T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-10-18T21:00:00",
+        "week_start": "2020-10-18T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-10-18T21:00:00",
+        "week_start": "2020-10-18T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-10-25T21:00:00",
+        "week_start": "2020-10-25T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-10-25T21:00:00",
+        "week_start": "2020-10-25T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-11-01T21:00:00",
+        "week_start": "2020-11-01T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-11-01T21:00:00",
+        "week_start": "2020-11-01T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-11-08T21:00:00",
+        "week_start": "2020-11-08T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2020-11-08T21:00:00",
+        "week_start": "2020-11-08T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-11-15T21:00:00",
+        "week_start": "2020-11-15T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-11-15T21:00:00",
+        "week_start": "2020-11-15T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-11-22T21:00:00",
+        "week_start": "2020-11-22T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-11-22T21:00:00",
+        "week_start": "2020-11-22T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-11-29T21:00:00",
+        "week_start": "2020-11-29T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-11-29T21:00:00",
+        "week_start": "2020-11-29T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-12-06T21:00:00",
+        "week_start": "2020-12-06T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-12-06T21:00:00",
+        "week_start": "2020-12-06T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-12-13T21:00:00",
+        "week_start": "2020-12-13T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2020-12-13T21:00:00",
+        "week_start": "2020-12-13T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-12-20T21:00:00",
+        "week_start": "2020-12-20T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-12-20T21:00:00",
+        "week_start": "2020-12-20T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-12-27T21:00:00",
+        "week_start": "2020-12-27T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2020-12-27T21:00:00",
+        "week_start": "2020-12-27T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-01-03T21:00:00",
+        "week_start": "2021-01-03T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-01-03T21:00:00",
+        "week_start": "2021-01-03T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-01-10T21:00:00",
+        "week_start": "2021-01-10T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-01-10T21:00:00",
+        "week_start": "2021-01-10T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-01-17T21:00:00",
+        "week_start": "2021-01-17T21:00:00",
+        "subscribers": 30000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 20000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2021-01-17T21:00:00",
+        "week_start": "2021-01-17T21:00:00",
+        "subscribers": 30000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-01-24T21:00:00",
+        "week_start": "2021-01-24T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-01-24T21:00:00",
+        "week_start": "2021-01-24T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-01-31T21:00:00",
+        "week_start": "2021-01-31T21:00:00",
+        "subscribers": 20000,
+        "views": 23199580,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 23199580,
+        "data_quality_flags": [
+          "large_view_change"
+        ]
+      },
+      {
+        "date": "2021-01-31T21:00:00",
+        "week_start": "2021-01-31T21:00:00",
+        "subscribers": 20000,
+        "views": 23199580,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-02-07T21:00:00",
+        "week_start": "2021-02-07T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": -23199580,
+        "data_quality_flags": [
+          "large_view_change"
+        ]
+      },
+      {
+        "date": "2021-02-07T21:00:00",
+        "week_start": "2021-02-07T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-02-14T21:00:00",
+        "week_start": "2021-02-14T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-02-14T21:00:00",
+        "week_start": "2021-02-14T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-02-21T21:00:00",
+        "week_start": "2021-02-21T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-02-21T21:00:00",
+        "week_start": "2021-02-21T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-02-28T21:00:00",
+        "week_start": "2021-02-28T21:00:00",
+        "subscribers": 20000,
+        "views": 23856546,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 23856546,
+        "data_quality_flags": [
+          "large_view_change"
+        ]
+      },
+      {
+        "date": "2021-02-28T21:00:00",
+        "week_start": "2021-02-28T21:00:00",
+        "subscribers": 20000,
+        "views": 23856546,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-03-07T21:00:00",
+        "week_start": "2021-03-07T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": -23856546,
+        "data_quality_flags": [
+          "large_subscriber_change",
+          "large_view_change"
+        ]
+      },
+      {
+        "date": "2021-03-07T21:00:00",
+        "week_start": "2021-03-07T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-03-14T21:00:00",
+        "week_start": "2021-03-14T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-03-14T21:00:00",
+        "week_start": "2021-03-14T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-03-21T21:00:00",
+        "week_start": "2021-03-21T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-03-21T21:00:00",
+        "week_start": "2021-03-21T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-03-28T21:00:00",
+        "week_start": "2021-03-28T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-03-28T21:00:00",
+        "week_start": "2021-03-28T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-04-04T21:00:00",
+        "week_start": "2021-04-04T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2021-04-04T21:00:00",
+        "week_start": "2021-04-04T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-04-11T21:00:00",
+        "week_start": "2021-04-11T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-04-11T21:00:00",
+        "week_start": "2021-04-11T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-04-18T21:00:00",
+        "week_start": "2021-04-18T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-04-18T21:00:00",
+        "week_start": "2021-04-18T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-04-25T21:00:00",
+        "week_start": "2021-04-25T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-04-25T21:00:00",
+        "week_start": "2021-04-25T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-05-02T21:00:00",
+        "week_start": "2021-05-02T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-05-02T21:00:00",
+        "week_start": "2021-05-02T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-05-09T21:00:00",
+        "week_start": "2021-05-09T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2021-05-09T21:00:00",
+        "week_start": "2021-05-09T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-05-16T21:00:00",
+        "week_start": "2021-05-16T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-05-16T21:00:00",
+        "week_start": "2021-05-16T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-05-23T21:00:00",
+        "week_start": "2021-05-23T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-05-23T21:00:00",
+        "week_start": "2021-05-23T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-05-30T21:00:00",
+        "week_start": "2021-05-30T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2021-05-30T21:00:00",
+        "week_start": "2021-05-30T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-06-06T21:00:00",
+        "week_start": "2021-06-06T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-06-06T21:00:00",
+        "week_start": "2021-06-06T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-06-13T21:00:00",
+        "week_start": "2021-06-13T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-06-13T21:00:00",
+        "week_start": "2021-06-13T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-06-20T21:00:00",
+        "week_start": "2021-06-20T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-06-20T21:00:00",
+        "week_start": "2021-06-20T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-06-27T21:00:00",
+        "week_start": "2021-06-27T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-06-27T21:00:00",
+        "week_start": "2021-06-27T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-07-04T21:00:00",
+        "week_start": "2021-07-04T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2021-07-04T21:00:00",
+        "week_start": "2021-07-04T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-07-11T21:00:00",
+        "week_start": "2021-07-11T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-07-11T21:00:00",
+        "week_start": "2021-07-11T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-07-18T21:00:00",
+        "week_start": "2021-07-18T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-07-18T21:00:00",
+        "week_start": "2021-07-18T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-07-25T21:00:00",
+        "week_start": "2021-07-25T21:00:00",
+        "subscribers": 50000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 30000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2021-07-25T21:00:00",
+        "week_start": "2021-07-25T21:00:00",
+        "subscribers": 50000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-08-01T21:00:00",
+        "week_start": "2021-08-01T21:00:00",
+        "subscribers": 30000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -20000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2021-08-01T21:00:00",
+        "week_start": "2021-08-01T21:00:00",
+        "subscribers": 30000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-08-08T21:00:00",
+        "week_start": "2021-08-08T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-08-08T21:00:00",
+        "week_start": "2021-08-08T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-08-15T21:00:00",
+        "week_start": "2021-08-15T21:00:00",
+        "subscribers": 30000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-08-15T21:00:00",
+        "week_start": "2021-08-15T21:00:00",
+        "subscribers": 30000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-08-22T21:00:00",
+        "week_start": "2021-08-22T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-08-22T21:00:00",
+        "week_start": "2021-08-22T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-08-29T21:00:00",
+        "week_start": "2021-08-29T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-08-29T21:00:00",
+        "week_start": "2021-08-29T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-09-05T21:00:00",
+        "week_start": "2021-09-05T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-09-05T21:00:00",
+        "week_start": "2021-09-05T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-09-12T21:00:00",
+        "week_start": "2021-09-12T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2021-09-12T21:00:00",
+        "week_start": "2021-09-12T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-09-19T21:00:00",
+        "week_start": "2021-09-19T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-09-19T21:00:00",
+        "week_start": "2021-09-19T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-09-26T21:00:00",
+        "week_start": "2021-09-26T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-09-26T21:00:00",
+        "week_start": "2021-09-26T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-10-03T21:00:00",
+        "week_start": "2021-10-03T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-10-03T21:00:00",
+        "week_start": "2021-10-03T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-10-10T21:00:00",
+        "week_start": "2021-10-10T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-10-10T21:00:00",
+        "week_start": "2021-10-10T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-10-17T21:00:00",
+        "week_start": "2021-10-17T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-10-17T21:00:00",
+        "week_start": "2021-10-17T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-10-24T21:00:00",
+        "week_start": "2021-10-24T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-10-24T21:00:00",
+        "week_start": "2021-10-24T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-10-31T21:00:00",
+        "week_start": "2021-10-31T21:00:00",
+        "subscribers": 20000,
+        "views": 1389023015,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 1389023015,
+        "data_quality_flags": [
+          "large_view_change"
+        ]
+      },
+      {
+        "date": "2021-10-31T21:00:00",
+        "week_start": "2021-10-31T21:00:00",
+        "subscribers": 20000,
+        "views": 1389023015,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-11-07T21:00:00",
+        "week_start": "2021-11-07T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": -1389023015,
+        "data_quality_flags": [
+          "large_view_change"
+        ]
+      },
+      {
+        "date": "2021-11-07T21:00:00",
+        "week_start": "2021-11-07T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-11-14T21:00:00",
+        "week_start": "2021-11-14T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2021-11-14T21:00:00",
+        "week_start": "2021-11-14T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-11-21T21:00:00",
+        "week_start": "2021-11-21T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-11-21T21:00:00",
+        "week_start": "2021-11-21T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-11-28T21:00:00",
+        "week_start": "2021-11-28T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-11-28T21:00:00",
+        "week_start": "2021-11-28T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-12-05T21:00:00",
+        "week_start": "2021-12-05T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2021-12-05T21:00:00",
+        "week_start": "2021-12-05T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-12-12T21:00:00",
+        "week_start": "2021-12-12T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-12-12T21:00:00",
+        "week_start": "2021-12-12T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-12-19T21:00:00",
+        "week_start": "2021-12-19T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-12-19T21:00:00",
+        "week_start": "2021-12-19T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-12-26T21:00:00",
+        "week_start": "2021-12-26T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2021-12-26T21:00:00",
+        "week_start": "2021-12-26T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-01-02T21:00:00",
+        "week_start": "2022-01-02T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-01-02T21:00:00",
+        "week_start": "2022-01-02T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-01-09T21:00:00",
+        "week_start": "2022-01-09T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-01-09T21:00:00",
+        "week_start": "2022-01-09T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-01-16T21:00:00",
+        "week_start": "2022-01-16T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-01-16T21:00:00",
+        "week_start": "2022-01-16T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-01-23T21:00:00",
+        "week_start": "2022-01-23T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-01-23T21:00:00",
+        "week_start": "2022-01-23T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-01-30T21:00:00",
+        "week_start": "2022-01-30T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-01-30T21:00:00",
+        "week_start": "2022-01-30T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-02-06T21:00:00",
+        "week_start": "2022-02-06T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-02-06T21:00:00",
+        "week_start": "2022-02-06T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-02-13T21:00:00",
+        "week_start": "2022-02-13T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-02-13T21:00:00",
+        "week_start": "2022-02-13T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-02-20T21:00:00",
+        "week_start": "2022-02-20T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2022-02-20T21:00:00",
+        "week_start": "2022-02-20T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-02-27T21:00:00",
+        "week_start": "2022-02-27T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-02-27T21:00:00",
+        "week_start": "2022-02-27T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-03-06T21:00:00",
+        "week_start": "2022-03-06T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-03-06T21:00:00",
+        "week_start": "2022-03-06T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-03-13T21:00:00",
+        "week_start": "2022-03-13T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-03-13T21:00:00",
+        "week_start": "2022-03-13T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-03-20T21:00:00",
+        "week_start": "2022-03-20T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-03-20T21:00:00",
+        "week_start": "2022-03-20T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-03-27T21:00:00",
+        "week_start": "2022-03-27T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-03-27T21:00:00",
+        "week_start": "2022-03-27T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-04-03T21:00:00",
+        "week_start": "2022-04-03T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-04-03T21:00:00",
+        "week_start": "2022-04-03T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-04-10T21:00:00",
+        "week_start": "2022-04-10T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2022-04-10T21:00:00",
+        "week_start": "2022-04-10T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-04-17T21:00:00",
+        "week_start": "2022-04-17T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-04-17T21:00:00",
+        "week_start": "2022-04-17T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-04-24T21:00:00",
+        "week_start": "2022-04-24T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-04-24T21:00:00",
+        "week_start": "2022-04-24T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-05-01T21:00:00",
+        "week_start": "2022-05-01T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2022-05-01T21:00:00",
+        "week_start": "2022-05-01T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-05-08T21:00:00",
+        "week_start": "2022-05-08T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-05-08T21:00:00",
+        "week_start": "2022-05-08T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-05-15T21:00:00",
+        "week_start": "2022-05-15T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2022-05-15T21:00:00",
+        "week_start": "2022-05-15T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-05-22T21:00:00",
+        "week_start": "2022-05-22T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-05-22T21:00:00",
+        "week_start": "2022-05-22T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-05-29T21:00:00",
+        "week_start": "2022-05-29T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-05-29T21:00:00",
+        "week_start": "2022-05-29T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-06-05T21:00:00",
+        "week_start": "2022-06-05T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2022-06-05T21:00:00",
+        "week_start": "2022-06-05T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-06-12T21:00:00",
+        "week_start": "2022-06-12T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-06-12T21:00:00",
+        "week_start": "2022-06-12T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-06-19T21:00:00",
+        "week_start": "2022-06-19T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2022-06-19T21:00:00",
+        "week_start": "2022-06-19T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-06-26T21:00:00",
+        "week_start": "2022-06-26T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 10000,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-06-26T21:00:00",
+        "week_start": "2022-06-26T21:00:00",
+        "subscribers": 20000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-07-03T21:00:00",
+        "week_start": "2022-07-03T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -10000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2022-07-03T21:00:00",
+        "week_start": "2022-07-03T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-07-10T21:00:00",
+        "week_start": "2022-07-10T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-07-10T21:00:00",
+        "week_start": "2022-07-10T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-07-17T21:00:00",
+        "week_start": "2022-07-17T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-07-17T21:00:00",
+        "week_start": "2022-07-17T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-07-24T21:00:00",
+        "week_start": "2022-07-24T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-07-24T21:00:00",
+        "week_start": "2022-07-24T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-07-31T21:00:00",
+        "week_start": "2022-07-31T21:00:00",
+        "subscribers": 10000,
+        "views": 1620136224,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 1620136224,
+        "data_quality_flags": [
+          "large_view_change"
+        ]
+      },
+      {
+        "date": "2022-07-31T21:00:00",
+        "week_start": "2022-07-31T21:00:00",
+        "subscribers": 10000,
+        "views": 1620136224,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-08-07T21:00:00",
+        "week_start": "2022-08-07T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": -1620136224,
+        "data_quality_flags": [
+          "large_view_change"
+        ]
+      },
+      {
+        "date": "2022-08-07T21:00:00",
+        "week_start": "2022-08-07T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-08-14T21:00:00",
+        "week_start": "2022-08-14T21:00:00",
+        "subscribers": 30000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 20000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2022-08-14T21:00:00",
+        "week_start": "2022-08-14T21:00:00",
+        "subscribers": 30000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-08-21T21:00:00",
+        "week_start": "2022-08-21T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": -20000,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "large_subscriber_change"
+        ]
+      },
+      {
+        "date": "2022-08-21T21:00:00",
+        "week_start": "2022-08-21T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-08-28T21:00:00",
+        "week_start": "2022-08-28T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-08-28T21:00:00",
+        "week_start": "2022-08-28T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-09-04T21:00:00",
+        "week_start": "2022-09-04T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-09-04T21:00:00",
+        "week_start": "2022-09-04T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-09-11T21:00:00",
+        "week_start": "2022-09-11T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-09-11T21:00:00",
+        "week_start": "2022-09-11T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-09-18T21:00:00",
+        "week_start": "2022-09-18T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-09-18T21:00:00",
+        "week_start": "2022-09-18T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-09-25T21:00:00",
+        "week_start": "2022-09-25T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-09-25T21:00:00",
+        "week_start": "2022-09-25T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-10-02T21:00:00",
+        "week_start": "2022-10-02T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-10-02T21:00:00",
+        "week_start": "2022-10-02T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-10-09T21:00:00",
+        "week_start": "2022-10-09T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-10-09T21:00:00",
+        "week_start": "2022-10-09T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-10-16T21:00:00",
+        "week_start": "2022-10-16T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-10-16T21:00:00",
+        "week_start": "2022-10-16T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      {
+        "date": "2022-10-23T21:00:00",
+        "week_start": "2022-10-23T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      }
+    ],
+    "data_quality": "fair",
+    "junction_points": {
+      "sep_2019_data": {
+        "date": "2019-10-31T21:00:00",
+        "week_start": "2019-10-27T21:00:00",
+        "subscribers": 0,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221030051308",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": [
+          "zero_values"
+        ]
+      },
+      "dec_2022_data": {
+        "date": "2022-10-23T21:00:00",
+        "week_start": "2022-10-23T21:00:00",
+        "subscribers": 10000,
+        "views": 0,
+        "data_source": "wayback_charts",
+        "snapshot_timestamp": "20221102010043",
+        "extraction_method": "dygraph",
+        "delta_subscribers": 0,
+        "delta_views": 0,
+        "data_quality_flags": []
+      },
+      "continuity_score": 0.8
+    },
+    "collection_duration": 3.5722315311431885
+  }
+]

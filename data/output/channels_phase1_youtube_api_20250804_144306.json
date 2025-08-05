@@ -1,0 +1,158 @@
+[
+  {
+    "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+    "channel_name": "3Blue1Brown",
+    "channel_handle": "",
+    "category": "Other",
+    "country": "US",
+    "language": "",
+    "status": "active",
+    "created_date": "2015-03-03",
+    "description": "My name is Grant Sanderson. Videos here cover a variety of topics in math, or adjacent fields like physics and CS, all with an emphasis on visualizing the core ideas. The goal is to use animation to help elucidate and motivate otherwise tricky topics, and for difficult problems to be made simple with changes in perspective.\n\nFor more information, other projects, FAQs, and inquiries see the website: https://www.3blue1brown.com",
+    "keywords": [],
+    "current_metrics": {
+      "subscriber_count": 7510000,
+      "total_view_count": 669193284,
+      "video_count": 215,
+      "total_longform_views": 0,
+      "total_shorts_views": 0,
+      "average_views_per_video": 3112526.9023255813,
+      "subscriber_to_view_ratio": 0.011222467677963128,
+      "last_updated": "2025-08-04T14:43:06.649166"
+    },
+    "history": {
+      "first_data_point": null,
+      "last_data_point": null,
+      "total_data_points": 0,
+      "data_coverage_percentage": 0.0,
+      "junction_points_validated": [],
+      "collection_sources_used": [
+        "youtube_api"
+      ],
+      "quality_score": 0.0
+    },
+    "collection_metadata": {
+      "collection_sources": {
+        "youtube_api": {
+          "timestamp": "2025-08-04T14:43:06.649186",
+          "details": {
+            "timestamp": "2025-08-04T14:43:06.649177",
+            "privacy_status": "public",
+            "subscriber_count_hidden": true,
+            "quota_cost": 1
+          }
+        }
+      }
+    },
+    "data_quality_score": 0.0,
+    "validation_flags": [],
+    "last_validated": null,
+    "processing_status": "enriched",
+    "processing_notes": "Successfully enriched via YouTube API",
+    "last_updated": "2025-08-04T14:43:06.649172"
+  },
+  {
+    "channel_id": "UCX6OQ3DkcsbYNE6H8uQQuVA",
+    "channel_name": "MrBeast",
+    "channel_handle": "",
+    "category": "Other",
+    "country": "US",
+    "language": "en",
+    "status": "active",
+    "created_date": "2012-02-20",
+    "description": "SUBSCRIBE FOR A COOKIE!\nNew MrBeast or MrBeast Gaming video every single Saturday at noon eastern time!\nAccomplishments:\n- Raised $20,000,000 To Plant 20,000,000 Trees\n- Removed 30,000,000 pounds of trash from the ocean\n- Helped 2,000 people walk again\n- Helped 1,000 blind people see\n- Helped 1,000 deaf people hear\n- Built wells in Africa\n- Built and gave away 100 houses\n- Adopted every dog in a shelter (twice)\n- Given millions to charity\n- Started my own snack company Feastables\n- Started my ow",
+    "keywords": [],
+    "current_metrics": {
+      "subscriber_count": 419000000,
+      "total_view_count": 92366942048,
+      "video_count": 891,
+      "total_longform_views": 0,
+      "total_shorts_views": 0,
+      "average_views_per_video": 103666601.6251403,
+      "subscriber_to_view_ratio": 0.004536254970769302,
+      "last_updated": "2025-08-04T14:43:06.649205"
+    },
+    "history": {
+      "first_data_point": null,
+      "last_data_point": null,
+      "total_data_points": 0,
+      "data_coverage_percentage": 0.0,
+      "junction_points_validated": [],
+      "collection_sources_used": [
+        "youtube_api"
+      ],
+      "quality_score": 0.0
+    },
+    "collection_metadata": {
+      "collection_sources": {
+        "youtube_api": {
+          "timestamp": "2025-08-04T14:43:06.649215",
+          "details": {
+            "timestamp": "2025-08-04T14:43:06.649210",
+            "privacy_status": "public",
+            "subscriber_count_hidden": true,
+            "quota_cost": 1
+          }
+        }
+      }
+    },
+    "data_quality_score": 0.0,
+    "validation_flags": [],
+    "last_validated": null,
+    "processing_status": "enriched",
+    "processing_notes": "Successfully enriched via YouTube API",
+    "last_updated": "2025-08-04T14:43:06.649208"
+  },
+  {
+    "channel_id": "UCuAXFkgsw1L7xaCfnd5JJOw",
+    "channel_name": "Rick Astley",
+    "channel_handle": "",
+    "category": "Other",
+    "country": "GB",
+    "language": "",
+    "status": "active",
+    "created_date": "2015-02-01",
+    "description": "Never: The Autobiography -  Out now 📚",
+    "keywords": [],
+    "current_metrics": {
+      "subscriber_count": 4380000,
+      "total_view_count": 2292814933,
+      "video_count": 344,
+      "total_longform_views": 0,
+      "total_shorts_views": 0,
+      "average_views_per_video": 6665159.688953488,
+      "subscriber_to_view_ratio": 0.0019103155413721304,
+      "last_updated": "2025-08-04T14:43:06.649225"
+    },
+    "history": {
+      "first_data_point": null,
+      "last_data_point": null,
+      "total_data_points": 0,
+      "data_coverage_percentage": 0.0,
+      "junction_points_validated": [],
+      "collection_sources_used": [
+        "youtube_api"
+      ],
+      "quality_score": 0.0
+    },
+    "collection_metadata": {
+      "collection_sources": {
+        "youtube_api": {
+          "timestamp": "2025-08-04T14:43:06.649231",
+          "details": {
+            "timestamp": "2025-08-04T14:43:06.649228",
+            "privacy_status": "public",
+            "subscriber_count_hidden": true,
+            "quota_cost": 1
+          }
+        }
+      }
+    },
+    "data_quality_score": 0.0,
+    "validation_flags": [],
+    "last_validated": null,
+    "processing_status": "enriched",
+    "processing_notes": "Successfully enriched via YouTube API",
+    "last_updated": "2025-08-04T14:43:06.649227"
+  }
+]
